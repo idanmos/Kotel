@@ -1,0 +1,179 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Acquiring location…" : {
+      "comment" : "Message shown while getting GPS location",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquiring location…"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מאתר מיקום…"
+          }
+        }
+      }
+    },
+    "Allow location access so we can\npoint you toward the Kotel in Jerusalem" : {
+      "comment" : "Permission screen description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow location access so we can\npoint you toward the Kotel in Jerusalem"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אפשר גישה למיקום כדי\nשנוכל להצביע לכיוון הכותל בירושלים"
+          }
+        }
+      }
+    },
+    "Calibrating…" : {
+      "comment" : "Message shown while calibrating compass",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calibrating…"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מכייל…"
+          }
+        }
+      }
+    },
+    "Distance to Kotel" : {
+      "comment" : "Label showing distance to the Western Wall",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distance to Kotel"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מרחק לכותל"
+          }
+        }
+      }
+    },
+    "Enable Location" : {
+      "comment" : "Button to enable location services",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Location"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אפשר מיקום"
+          }
+        }
+      }
+    },
+    "Find the Western Wall" : {
+      "comment" : "Permission screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find the Western Wall"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מצא את הכותל המערבי"
+          }
+        }
+      }
+    },
+    "Location Access Needed" : {
+      "comment" : "Denied permission screen title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location Access Needed"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נדרשת גישה למיקום"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "comment" : "Button to open iOS Settings app",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פתח הגדרות"
+          }
+        }
+      }
+    },
+    "Open Settings and enable location\naccess to use the Western Wall compass" : {
+      "comment" : "Denied permission screen description",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings and enable location\naccess to use the Western Wall compass"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פתח הגדרות ואפשר גישה למיקום\nכדי להשתמש במצפן הכותל המערבי"
+          }
+        }
+      }
+    },
+    "Western Wall" : {
+      "comment" : "Title for the Western Wall",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Western Wall"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הכותל המערבי"
+          }
+        }
+      }
+    },
+    "הכותל המערבי" : {
+
+    }
+  },
+  "version" : "1.0"
+}

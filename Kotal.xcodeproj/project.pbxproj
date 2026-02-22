@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A7846D22F4B2EC900EE4A02 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
+		8A7846D42F4B306100EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		8A7846B42F4B2B5F00EE4A02 /* Kotal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kotal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7846B42F4B2B5F00EE4A02 /* Kotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,13 +41,15 @@
 			children = (
 				8A7846B62F4B2B5F00EE4A02 /* Kotal */,
 				8A7846B52F4B2B5F00EE4A02 /* Products */,
+				8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */,
+				8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */,
 			);
 			sourceTree = "<group>";
 		};
 		8A7846B52F4B2B5F00EE4A02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A7846B42F4B2B5F00EE4A02 /* Kotal.app */,
+				8A7846B42F4B2B5F00EE4A02 /* Kotel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +57,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A7846B32F4B2B5F00EE4A02 /* Kotal */ = {
+		8A7846B32F4B2B5F00EE4A02 /* Kotel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A7846BF2F4B2B5F00EE4A02 /* Build configuration list for PBXNativeTarget "Kotal" */;
+			buildConfigurationList = 8A7846BF2F4B2B5F00EE4A02 /* Build configuration list for PBXNativeTarget "Kotel" */;
 			buildPhases = (
 				8A7846B02F4B2B5F00EE4A02 /* Sources */,
 				8A7846B12F4B2B5F00EE4A02 /* Frameworks */,
@@ -63,11 +72,11 @@
 			fileSystemSynchronizedGroups = (
 				8A7846B62F4B2B5F00EE4A02 /* Kotal */,
 			);
-			name = Kotal;
+			name = Kotel;
 			packageProductDependencies = (
 			);
 			productName = Kotal;
-			productReference = 8A7846B42F4B2B5F00EE4A02 /* Kotal.app */;
+			productReference = 8A7846B42F4B2B5F00EE4A02 /* Kotel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A7846B32F4B2B5F00EE4A02 /* Kotal */,
+				8A7846B32F4B2B5F00EE4A02 /* Kotel */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7846D42F4B306100EE4A02 /* InfoPlist.xcstrings in Resources */,
+				8A7846D22F4B2EC900EE4A02 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +267,14 @@
 				DEVELOPMENT_TEAM = FW4XJ5D4XA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kotel;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,11 +302,14 @@
 				DEVELOPMENT_TEAM = FW4XJ5D4XA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Kotel;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A7846BF2F4B2B5F00EE4A02 /* Build configuration list for PBXNativeTarget "Kotal" */ = {
+		8A7846BF2F4B2B5F00EE4A02 /* Build configuration list for PBXNativeTarget "Kotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A7846C02F4B2B5F00EE4A02 /* Debug */,
