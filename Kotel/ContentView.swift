@@ -78,7 +78,7 @@ struct NavigatorContent: View {
                         .foregroundStyle(.white.opacity(0.5))
                 }
 
-                Text("הכותל המערבי")
+                Text(verbatim: "הכותל המערבי")
                     .font(.system(size: 28, weight: .bold, design: .serif))
                     .foregroundStyle(.white)
                     .environment(\.layoutDirection, .rightToLeft)

@@ -25,8 +25,8 @@ struct KotelWidget: Widget {
         StaticConfiguration(kind: kind, provider: KotelWidgetProvider()) { entry in
             KotelWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("Kotel Compass")
-        .description("Shows direction and distance to the Western Wall.")
+        .configurationDisplayName(Text("Kotel Compass", bundle: .main, comment: "Widget configuration display name"))
+        .description(Text("Shows direction and distance to the Western Wall.", bundle: .main, comment: "Widget description"))
         .supportedFamilies([
             .systemSmall,
             .systemMedium,

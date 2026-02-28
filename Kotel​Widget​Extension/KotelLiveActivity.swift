@@ -53,24 +53,46 @@ struct KotelLiveActivity: Widget {
 /// Lock Screen Live Activity presentation
 struct LockScreenLiveActivityView: View {
     let context: ActivityViewContext<KotelActivityAttributes>
-    
+
     var rotationAngle: Double {
         context.state.bearingToWall - context.state.compassHeading
     }
-    
+
     var body: some View {
         HStack(spacing: 16) {
-            // Compass indicator
+            // Enhanced compass indicator with smooth animation
             ZStack {
+                // Outer glow ring
+                Circle()
+                    .stroke(
+                        LinearGradient(
+                            colors: [.yellow.opacity(0.4), .yellow.opacity(0.1)],
+                            startPoint: .top,
+                            endPoint: .bottom
+                        ),
+                        lineWidth: 3
+                    )
+                    .frame(width: 54, height: 54)
+                    .blur(radius: 1)
+
+                // Main ring
                 Circle()
                     .stroke(Color.yellow.opacity(0.3), lineWidth: 2)
                     .frame(width: 50, height: 50)
-                
+
+                // Cardinal direction indicator (North)
+                Circle()
+                    .fill(Color.yellow.opacity(0.6))
+                    .frame(width: 3, height: 3)
+                    .offset(y: -22)
+
                 if context.state.hasLocation && !context.state.isCalibrating {
                     Image(systemName: "arrow.up.circle.fill")
                         .font(.title2)
                         .foregroundStyle(.yellow)
                         .rotationEffect(.degrees(rotationAngle))
+                        .animation(.spring(response: 0.3, dampingFraction: 0.7), value: rotationAngle)
+                        .shadow(color: .yellow.opacity(0.5), radius: 4)
                 } else if context.state.isCalibrating {
                     Image(systemName: "gyroscope")
                         .font(.title3)
@@ -82,31 +104,40 @@ struct LockScreenLiveActivityView: View {
                         .foregroundStyle(.secondary)
                 }
             }
-            
+
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 4) {
                     Image(systemName: "building.columns.fill")
                         .font(.caption)
                         .foregroundStyle(.yellow)
-                    Text("Western Wall")
+                    Text("Western Wall", bundle: .main, comment: "Title for the Western Wall")
                         .font(.subheadline.bold())
                 }
-                
+
                 if context.state.hasLocation {
-                    Text(context.state.formattedDistance)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                    HStack(spacing: 6) {
+                        Text(context.state.formattedDistance)
+                            .font(.caption.bold())
+                            .foregroundStyle(.white)
+                            .contentTransition(.numericText())
+
+                        Text("• \(Int(context.state.bearingToWall))°")
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                            .contentTransition(.numericText())
+                    }
                 } else {
-                    Text("Acquiring location…")
+                    Text("Acquiring location…", bundle: .main, comment: "Message shown while getting GPS location")
                         .font(.caption)
                         .foregroundStyle(.tertiary)
                 }
-                
-                Text("Heading: \(Int(context.state.compassHeading))°")
+
+                Text("Heading: \(Int(context.state.compassHeading))°", bundle: .main, comment: "Current compass heading display")
                     .font(.caption2)
                     .foregroundStyle(.tertiary)
+                    .contentTransition(.numericText())
             }
-            
+
             Spacer()
         }
         .padding()
@@ -130,16 +161,17 @@ struct CompactLeadingView: View {
 /// Compact trailing view (right content in Dynamic Island)
 struct CompactTrailingView: View {
     let context: ActivityViewContext<KotelActivityAttributes>
-    
+
     var rotationAngle: Double {
         context.state.bearingToWall - context.state.compassHeading
     }
-    
+
     var body: some View {
         if context.state.hasLocation && !context.state.isCalibrating {
             Image(systemName: "arrow.up.circle.fill")
                 .foregroundStyle(.yellow)
                 .rotationEffect(.degrees(rotationAngle))
+                .animation(.spring(response: 0.3, dampingFraction: 0.7), value: rotationAngle)
         } else if context.state.isCalibrating {
             Image(systemName: "gyroscope")
                 .foregroundStyle(.yellow.opacity(0.6))
@@ -154,16 +186,17 @@ struct CompactTrailingView: View {
 /// Minimal view (when multiple activities)
 struct MinimalView: View {
     let context: ActivityViewContext<KotelActivityAttributes>
-    
+
     var rotationAngle: Double {
         context.state.bearingToWall - context.state.compassHeading
     }
-    
+
     var body: some View {
         if context.state.hasLocation && !context.state.isCalibrating {
             Image(systemName: "arrow.up.circle.fill")
                 .foregroundStyle(.yellow)
                 .rotationEffect(.degrees(rotationAngle))
+                .animation(.spring(response: 0.3, dampingFraction: 0.7), value: rotationAngle)
         } else {
             Image(systemName: "building.columns.fill")
                 .foregroundStyle(.yellow)
@@ -183,7 +216,7 @@ struct ExpandedLeadingView: View {
                 Image(systemName: "building.columns.fill")
                     .font(.caption)
                     .foregroundStyle(.yellow)
-                Text("Kotel")
+                Text("Kotel", bundle: .main, comment: "Short name for the Western Wall")
                     .font(.caption.bold())
             }
             
@@ -192,7 +225,7 @@ struct ExpandedLeadingView: View {
                     .font(.caption2)
                     .foregroundStyle(.secondary)
             } else {
-                Text("No location")
+                Text("No location", bundle: .main, comment: "Message when location data is unavailable")
                     .font(.caption2)
                     .foregroundStyle(.tertiary)
             }
@@ -203,22 +236,43 @@ struct ExpandedLeadingView: View {
 /// Expanded trailing region
 struct ExpandedTrailingView: View {
     let context: ActivityViewContext<KotelActivityAttributes>
-    
+
     var rotationAngle: Double {
         context.state.bearingToWall - context.state.compassHeading
     }
-    
+
     var body: some View {
         ZStack {
+            // Outer glow
+            Circle()
+                .stroke(
+                    LinearGradient(
+                        colors: [.yellow.opacity(0.4), .yellow.opacity(0.1)],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    ),
+                    lineWidth: 3
+                )
+                .frame(width: 54, height: 54)
+                .blur(radius: 1)
+
             Circle()
                 .stroke(Color.yellow.opacity(0.3), lineWidth: 2)
                 .frame(width: 50, height: 50)
-            
+
+            // North indicator
+            Circle()
+                .fill(Color.yellow.opacity(0.6))
+                .frame(width: 3, height: 3)
+                .offset(y: -22)
+
             if context.state.hasLocation && !context.state.isCalibrating {
                 Image(systemName: "arrow.up.circle.fill")
                     .font(.title2)
                     .foregroundStyle(.yellow)
                     .rotationEffect(.degrees(rotationAngle))
+                    .animation(.spring(response: 0.3, dampingFraction: 0.7), value: rotationAngle)
+                    .shadow(color: .yellow.opacity(0.5), radius: 4)
             } else if context.state.isCalibrating {
                 Image(systemName: "gyroscope")
                     .font(.title3)
@@ -238,7 +292,7 @@ struct ExpandedCenterView: View {
     let context: ActivityViewContext<KotelActivityAttributes>
     
     var body: some View {
-        Text("הכותל המערבי")
+        Text(verbatim: "הכותל המערבי")
             .font(.title3.bold())
             .foregroundStyle(.white)
             .environment(\.layoutDirection, .rightToLeft)
@@ -258,17 +312,29 @@ struct ExpandedBottomView: View {
             Spacer()
             
             if context.state.isCalibrating {
-                Label("Calibrating…", systemImage: "gyroscope")
-                    .font(.caption)
-                    .foregroundStyle(.yellow.opacity(0.7))
+                Label {
+                    Text("Calibrating…", bundle: .main, comment: "Message shown while calibrating compass")
+                } icon: {
+                    Image(systemName: "gyroscope")
+                }
+                .font(.caption)
+                .foregroundStyle(.yellow.opacity(0.7))
             } else if context.state.hasLocation {
-                Label("Active", systemImage: "checkmark.circle.fill")
-                    .font(.caption)
-                    .foregroundStyle(.green)
+                Label {
+                    Text("Active", bundle: .main, comment: "Status label indicating compass is active")
+                } icon: {
+                    Image(systemName: "checkmark.circle.fill")
+                }
+                .font(.caption)
+                .foregroundStyle(.green)
             } else {
-                Label("Searching…", systemImage: "location.magnifyingglass")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                Label {
+                    Text("Searching…", bundle: .main, comment: "Status label while searching for location")
+                } icon: {
+                    Image(systemName: "location.magnifyingglass")
+                }
+                .font(.caption)
+                .foregroundStyle(.secondary)
             }
         }
         .padding(.horizontal, 12)

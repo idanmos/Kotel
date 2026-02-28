@@ -12,6 +12,8 @@
 		8A2222232F4B2EC900EE4A03 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1111132F4B2EC900EE4A03 /* CompassView.swift */; };
 		8A3333312F4B2EC900EE4A01 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A3333322F4B2EC900EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
+		8A3333332F4B2EC900EE4A03 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
+		8A3333342F4B2EC900EE4A04 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
 		8A535E172F4E1AB400E436EC /* KotelActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A535E162F4E1AB400E436EC /* KotelActivityAttributes.swift */; };
 		8A535E222F4E1C2000E436EC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A535E212F4E1C2000E436EC /* WidgetKit.framework */; };
 		8A535E242F4E1C2000E436EC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A535E232F4E1C2000E436EC /* SwiftUI.framework */; };
@@ -94,6 +96,20 @@
 			);
 			target = 8A535E1E2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension */;
 		};
+		8AB3F6092F539C3200DBC455 /* Exceptions for "Kotel Watch Watch App" folder in "Kotel Watch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Kotel-Watch-Watch-App-Info.plist",
+			);
+			target = 8A6D95152F4DF73D003A15A2 /* Kotel Watch Watch App */;
+		};
+		8AB3F6442F539D3900DBC455 /* Exceptions for "Kotel" folder in "Kotel" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8A7846B32F4B2B5F00EE4A02 /* Kotel */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -107,12 +123,16 @@
 		};
 		8A6D95172F4DF73D003A15A2 /* Kotel Watch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8AB3F6092F539C3200DBC455 /* Exceptions for "Kotel Watch Watch App" folder in "Kotel Watch Watch App" target */,
+			);
 			path = "Kotel Watch Watch App";
 			sourceTree = "<group>";
 		};
 		8A7846B62F4B2B5F00EE4A02 /* Kotel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				8AB3F6442F539D3900DBC455 /* Exceptions for "Kotel" folder in "Kotel" target */,
 				8A535E442F4E24A500E436EC /* Exceptions for "Kotel" folder in "Kotel​Widget​ExtensionExtension" target */,
 			);
 			path = Kotel;
@@ -338,6 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3333332F4B2EC900EE4A03 /* Localizable.xcstrings in Resources */,
+				8A3333342F4B2EC900EE4A04 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,12 +430,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Kotel​Widget​Extension/KotelWidgetExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = YES;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kotel​Widget​Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Kotel​Widget​Extension";
@@ -434,6 +463,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Kotel.Kotel-Widget-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -452,12 +487,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Kotel​Widget​Extension/KotelWidgetExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = YES;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kotel​Widget​Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Kotel​Widget​Extension";
@@ -478,6 +520,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Kotel.Kotel-Widget-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -501,6 +549,7 @@
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kotel-Watch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Kotel Watch";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.idanmoshe.Kotel;
@@ -534,6 +583,7 @@
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kotel-Watch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Kotel Watch";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.idanmoshe.Kotel;
@@ -689,15 +739,15 @@
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kotel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Kotel;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so the compass can keep pointing toward the Kotel even in the background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UIBackgroundModes = (
-					location,
-				);
+				INFOPLIST_KEY_UIBackgroundModes = location;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -730,15 +780,15 @@
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kotel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Kotel;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so the compass can keep pointing toward the Kotel even in the background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UIBackgroundModes = (
-					location,
-				);
+				INFOPLIST_KEY_UIBackgroundModes = location;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

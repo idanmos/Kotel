@@ -72,7 +72,7 @@ struct RectangularWidgetView: View {
                 HStack(spacing: 3) {
                     Image(systemName: "building.columns.fill")
                         .font(.caption2)
-                    Text("Kotel")
+                    Text("Kotel", bundle: .main, comment: "Short name for the Western Wall")
                         .font(.caption.bold())
                 }
 
@@ -88,7 +88,7 @@ struct RectangularWidgetView: View {
                             .foregroundStyle(.secondary)
                     }
                 } else {
-                    Text("Location unavailable")
+                    Text("Location unavailable", bundle: .main, comment: "Message when location is not available")
                         .font(.caption2)
                         .foregroundStyle(.tertiary)
                 }
@@ -106,9 +106,9 @@ struct InlineWidgetView: View {
             Image(systemName: "building.columns.fill")
 
             if entry.hasLocation, let distance = entry.formattedDistance {
-                Text("Kotel \(distance)")
+                Text("Kotel \(distance)", bundle: .main, comment: "Inline widget text with distance")
             } else {
-                Text("Kotel")
+                Text("Kotel", bundle: .main, comment: "Short name for the Western Wall")
             }
         }
     }

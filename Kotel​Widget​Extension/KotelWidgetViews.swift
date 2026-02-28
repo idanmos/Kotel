@@ -7,6 +7,7 @@
 
 import SwiftUI
 import WidgetKit
+import AppIntents
 
 // MARK: - Helpers
 
@@ -70,7 +71,7 @@ struct SmallWidgetView: View {
                 Image(systemName: "building.columns.fill")
                     .font(.caption2)
                     .foregroundStyle(.yellow.opacity(0.8))
-                Text("Kotel")
+                Text("Kotel", bundle: .main, comment: "Short name for the Western Wall")
                     .font(.caption2)
                     .foregroundStyle(.white.opacity(0.6))
             }
@@ -177,12 +178,12 @@ struct MediumWidgetView: View {
                     Image(systemName: "building.columns.fill")
                         .font(.caption)
                         .foregroundStyle(.yellow.opacity(0.8))
-                    Text("Western Wall")
+                    Text("Western Wall", bundle: .main, comment: "Title for the Western Wall")
                         .font(.subheadline)
                         .foregroundStyle(.white.opacity(0.6))
                 }
 
-                Text("הכותל המערבי")
+                Text(verbatim: "הכותל המערבי")
                     .font(.title3.bold())
                     .foregroundStyle(.white)
                     .environment(\.layoutDirection, .rightToLeft)
@@ -202,13 +203,29 @@ struct MediumWidgetView: View {
                         .foregroundStyle(.white.opacity(0.5))
                     }
                 } else {
-                    Text("Location unavailable")
+                    Text("Location unavailable", bundle: .main, comment: "Message when location is not available")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.4))
                 }
             }
 
             Spacer()
+
+            VStack(spacing: 4) {
+                Button(intent: RefreshWidgetIntent()) {
+                    Image(systemName: "arrow.clockwise")
+                        .font(.caption)
+                        .foregroundStyle(.white.opacity(0.6))
+                        .padding(6)
+                        .background(Color.white.opacity(0.1))
+                        .clipShape(Circle())
+                }
+                .buttonStyle(.plain)
+
+                Text("Refresh", bundle: .main, comment: "Button label to refresh widget")
+                    .font(.system(size: 8))
+                    .foregroundStyle(.white.opacity(0.4))
+            }
         }
         .padding()
         .containerBackground(for: .widget) {
@@ -240,13 +257,13 @@ struct LargeWidgetView: View {
                 Image(systemName: "building.columns.fill")
                     .font(.caption)
                     .foregroundStyle(.yellow.opacity(0.8))
-                Text("Western Wall")
+                Text("Western Wall", bundle: .main, comment: "Title for the Western Wall")
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.6))
                 Spacer()
             }
 
-            Text("הכותל המערבי")
+            Text(verbatim: "הכותל המערבי")
                 .font(.title.bold())
                 .foregroundStyle(.white)
                 .environment(\.layoutDirection, .rightToLeft)
@@ -289,7 +306,7 @@ struct LargeWidgetView: View {
                         Image(systemName: "location.slash")
                             .font(.title)
                             .foregroundStyle(.white.opacity(0.3))
-                        Text("Location\nunavailable")
+                        Text("Location unavailable", bundle: .main, comment: "Message when location is not available")
                             .font(.caption2)
                             .foregroundStyle(.white.opacity(0.3))
                             .multilineTextAlignment(.center)
@@ -302,7 +319,7 @@ struct LargeWidgetView: View {
             if entry.hasLocation {
                 HStack {
                     VStack(spacing: 2) {
-                        Text("Distance")
+                        Text("Distance", bundle: .main, comment: "Label for distance section in widget")
                             .font(.caption2)
                             .foregroundStyle(.white.opacity(0.4))
                             .textCase(.uppercase)
@@ -316,13 +333,31 @@ struct LargeWidgetView: View {
                     Spacer()
 
                     VStack(spacing: 2) {
-                        Text("Bearing")
+                        Text("Bearing", bundle: .main, comment: "Label for bearing section in widget")
                             .font(.caption2)
                             .foregroundStyle(.white.opacity(0.4))
                             .textCase(.uppercase)
                         Text("\(Int(entry.bearingToWall.rounded()))° \(cardinalDirection(for: entry.bearingToWall))")
                             .font(.title3.bold())
                             .foregroundStyle(.white)
+                    }
+
+                    Spacer()
+
+                    VStack(spacing: 2) {
+                        Button(intent: RefreshWidgetIntent()) {
+                            Image(systemName: "arrow.clockwise")
+                                .font(.body)
+                                .foregroundStyle(.white.opacity(0.6))
+                                .padding(8)
+                                .background(Color.white.opacity(0.1))
+                                .clipShape(Circle())
+                        }
+                        .buttonStyle(.plain)
+
+                        Text("Refresh", bundle: .main, comment: "Button label to refresh widget")
+                            .font(.caption2)
+                            .foregroundStyle(.white.opacity(0.4))
                     }
                 }
                 .padding(.horizontal, 8)

@@ -43,7 +43,7 @@ struct WatchNavigatorContent: View {
 
     var body: some View {
         VStack(spacing: 8) {
-            Text("הכותל")
+            Text(verbatim: "הכותל")
                 .font(.system(size: 18, weight: .bold, design: .serif))
                 .foregroundStyle(.white)
                 .environment(\.layoutDirection, .rightToLeft)
