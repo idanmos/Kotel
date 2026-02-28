@@ -22,7 +22,9 @@ class LocationService: NSObject, CLLocationManagerDelegate {
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.headingFilter = 1
         manager.allowsBackgroundLocationUpdates = true
+        #if os(iOS)
         manager.showsBackgroundLocationIndicator = true
+        #endif
     }
 
     func requestPermission() {
