@@ -8,6 +8,7 @@
 import CoreLocation
 import SwiftUI
 import UIKit
+import WidgetKit
 
 @Observable
 class CompassViewModel {
@@ -17,6 +18,9 @@ class CompassViewModel {
     #endif
 
     var isLiveActivityEnabled = false
+
+    private var lastWidgetReloadDate = Date.distantPast
+    private var lastWidgetBearing: Double = .nan
 
     init() {
         #if canImport(ActivityKit)
@@ -121,6 +125,15 @@ class CompassViewModel {
             timestamp: Date()
         )
         SharedLocationManager.shared.saveLocationData(sharedData)
+
+        // Reload widget timeline when bearing changes significantly or every 60s
+        let bearingDelta = abs(bearingToWall - lastWidgetBearing)
+        let timeSinceReload = Date().timeIntervalSince(lastWidgetReloadDate)
+        if bearingDelta > 5 || timeSinceReload > 60 || lastWidgetBearing.isNaN {
+            WidgetCenter.shared.reloadTimelines(ofKind: "KotelWidget")
+            lastWidgetReloadDate = Date()
+            lastWidgetBearing = bearingToWall
+        }
 
         // Auto-update Live Activity
         await updateLiveActivity()
