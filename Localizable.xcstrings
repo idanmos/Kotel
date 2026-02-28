@@ -4,10 +4,28 @@
     "Acquiring location…" : {
       "comment" : "Message shown while getting GPS location",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standort wird ermittelt…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acquiring location…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obteniendo ubicación…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisition de la position…"
           }
         },
         "he" : {
@@ -15,16 +33,58 @@
             "state" : "translated",
             "value" : "מאתר מיקום…"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtendo localização…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Определение местоположения…"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "געפֿינען אָרט…"
+          }
         }
       }
+    },
+    "Acquiring…" : {
+      "comment" : "Message shown while getting GPS location on watch"
+    },
+    "Allow Location" : {
+      "comment" : "Watch button to allow location"
     },
     "Allow location access so we can\npoint you toward the Kotel in Jerusalem" : {
       "comment" : "Permission screen description",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erlaube Standortzugriff, damit wir dich\nzur Klagemauer in Jerusalem führen können"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Allow location access so we can\npoint you toward the Kotel in Jerusalem"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a la ubicación para\nseñalarte hacia el Kotel en Jerusalén"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisez l'accès à la localisation pour\nvous orienter vers le Kotel à Jérusalem"
           }
         },
         "he" : {
@@ -32,16 +92,52 @@
             "state" : "translated",
             "value" : "אפשר גישה למיקום כדי\nשנוכל להצביע לכיוון הכותל בירושלים"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permita o acesso à localização para\napontarmos para o Kotel em Jerusalém"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешите доступ к местоположению, чтобы\nмы могли указать на Котель в Иерусалиме"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "דערלויב צוטריט צום אָרט כדי\nמיר קענען ווייַזן צו די כּותל אין ירושלים"
+          }
         }
       }
     },
     "Calibrating…" : {
       "comment" : "Message shown while calibrating compass",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalibrierung…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calibrating…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calibrando…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calibrage…"
           }
         },
         "he" : {
@@ -49,16 +145,52 @@
             "state" : "translated",
             "value" : "מכייל…"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calibrando…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Калибровка…"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "קאַליברירן…"
+          }
         }
       }
     },
     "Distance to Kotel" : {
       "comment" : "Label showing distance to the Western Wall",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernung zur Kotel"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Distance to Kotel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distancia al Kotel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distance au Kotel"
           }
         },
         "he" : {
@@ -66,16 +198,55 @@
             "state" : "translated",
             "value" : "מרחק לכותל"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distância ao Kotel"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расстояние до Котеля"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "דיסטאַנץ צו כּותל"
+          }
         }
       }
+    },
+    "Enable in Settings" : {
+      "comment" : "Watch denied permission description"
     },
     "Enable Location" : {
       "comment" : "Button to enable location services",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standort aktivieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enable Location"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activar ubicación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activer la localisation"
           }
         },
         "he" : {
@@ -83,16 +254,52 @@
             "state" : "translated",
             "value" : "אפשר מיקום"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar localização"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить геолокацию"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "דערמעגלעכן אָרט"
+          }
         }
       }
     },
     "Find the Western Wall" : {
       "comment" : "Permission screen title",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finde die Klagemauer"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Find the Western Wall"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encuentra el Muro Occidental"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trouvez le Mur occidental"
           }
         },
         "he" : {
@@ -100,16 +307,52 @@
             "state" : "translated",
             "value" : "מצא את הכותל המערבי"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encontre o Muro Ocidental"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найдите Западную стену"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "געפֿינען די מערבֿ־וואַנט"
+          }
         }
       }
     },
     "Location Access Needed" : {
       "comment" : "Denied permission screen title",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standortzugriff erforderlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Location Access Needed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se necesita acceso a ubicación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès à la localisation requis"
           }
         },
         "he" : {
@@ -117,16 +360,58 @@
             "state" : "translated",
             "value" : "נדרשת גישה למיקום"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acesso à localização necessário"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Требуется доступ к геолокации"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אָרט צוטריט דאַרף"
+          }
         }
       }
+    },
+    "Location Denied" : {
+      "comment" : "Watch denied permission title"
+    },
+    "Location Needed" : {
+      "comment" : "Watch permission view title"
     },
     "Open Settings" : {
       "comment" : "Button to open iOS Settings app",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen öffnen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Settings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir ajustes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les réglages"
           }
         },
         "he" : {
@@ -134,16 +419,52 @@
             "state" : "translated",
             "value" : "פתח הגדרות"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir configurações"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть настройки"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עפֿענען סעטטינגס"
+          }
         }
       }
     },
     "Open Settings and enable location\naccess to use the Western Wall compass" : {
       "comment" : "Denied permission screen description",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffne die Einstellungen und aktiviere den\nStandortzugriff, um den Klagemauer-Kompass zu nutzen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Settings and enable location\naccess to use the Western Wall compass"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre los ajustes y activa el acceso\na la ubicación para usar la brújula del Kotel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrez les réglages et activez l'accès\nà la localisation pour utiliser la boussole du Kotel"
           }
         },
         "he" : {
@@ -151,16 +472,67 @@
             "state" : "translated",
             "value" : "פתח הגדרות ואפשר גישה למיקום\nכדי להשתמש במצפן הכותל המערבי"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abra as configurações e ative o acesso\nà localização para usar a bússola do Kotel"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откройте настройки и включите доступ\nк местоположению для использования компаса Котеля"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עפֿענען סעטטינגס און דערמעגלעכן אָרט צוטריט\nצו נוצן דעם כּותל קאָמפּאַס"
+          }
         }
       }
+    },
+    "Opens the compass pointing to the Western Wall in Jerusalem" : {
+      "comment" : "Description of the app intent for showing direction to the Western Wall.",
+      "isCommentAutoGenerated" : true
+    },
+    "Show Direction" : {
+      "comment" : "Shortcut name for showing direction to the Western Wall.",
+      "isCommentAutoGenerated" : true
+    },
+    "Show Direction to Kotel" : {
+      "comment" : "Title of the app intent for showing direction to the Western Wall.",
+      "isCommentAutoGenerated" : true
+    },
+    "To point toward the Kotel" : {
+      "comment" : "Watch permission view description"
     },
     "Western Wall" : {
       "comment" : "Title for the Western Wall",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klagemauer"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Western Wall"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muro Occidental"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mur occidental"
           }
         },
         "he" : {
@@ -168,12 +540,34 @@
             "state" : "translated",
             "value" : "הכותל המערבי"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muro Ocidental"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Западная стена"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מערבֿ־וואַנט"
+          }
         }
       }
+    },
+    "הכותל" : {
+      "comment" : "The name of the app.",
+      "isCommentAutoGenerated" : true
     },
     "הכותל המערבי" : {
 
     }
   },
-  "version" : "1.0"
+  "version" : "1.1"
 }

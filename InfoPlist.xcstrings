@@ -5,7 +5,25 @@
       "comment" : "Bundle display name",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotel"
+          }
+        },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotel"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kotel"
@@ -15,6 +33,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "כותל"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotel"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Котель"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כּותל"
           }
         }
       }
@@ -31,20 +67,68 @@
         }
       }
     },
+    "NSSupportsLiveActivities" : {
+      "comment" : "Supports Live Activities",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YES"
+          }
+        }
+      }
+    },
     "NSLocationWhenInUseUsageDescription" : {
       "comment" : "Privacy - Location When In Use Usage Description",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erlaube Standortzugriff, damit wir dich zur Klagemauer in Jerusalem führen können"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Allow location access so we can point you toward the Kotel in Jerusalem"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permite el acceso a la ubicación para señalarte hacia el Kotel en Jerusalén"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisez l'accès à la localisation pour vous orienter vers le Kotel à Jérusalem"
+          }
+        },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "אפשר גישה למיקום כדי שנוכל להצביע לכיוון הכותל בירושלים"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permita o acesso à localização para apontarmos para o Kotel em Jerusalém"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешите доступ к местоположению, чтобы мы могли указать на Котель в Иерусалиме"
+          }
+        },
+        "yi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "דערלויב צוטריט צום אָרט כדי מיר קענען ווייַזן צו די כּותל אין ירושלים"
           }
         }
       }
