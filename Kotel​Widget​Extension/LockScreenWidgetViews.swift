@@ -1,0 +1,99 @@
+//
+//  LockScreenWidgetViews.swift
+//  KotelWidgetExtension
+//
+//  Created by Idan Moshe on 24/02/2026.
+//
+
+import SwiftUI
+import WidgetKit
+
+/// Circular Lock Screen widget
+struct CircularWidgetView: View {
+    let entry: KotelWidgetEntry
+    
+    var rotationAngle: Double {
+        entry.bearingToWall - entry.compassHeading
+    }
+    
+    var body: some View {
+        ZStack {
+            AccessoryWidgetBackground()
+            
+            if entry.hasLocation {
+                ZStack {
+                    Circle()
+                        .stroke(lineWidth: 2)
+                        .foregroundStyle(.secondary)
+                    
+                    Image(systemName: "arrow.up.circle.fill")
+                        .font(.title)
+                        .rotationEffect(.degrees(rotationAngle))
+                }
+            } else {
+                Image(systemName: "location.slash.circle.fill")
+                    .font(.title)
+                    .foregroundStyle(.tertiary)
+            }
+        }
+    }
+}
+
+/// Rectangular Lock Screen widget
+struct RectangularWidgetView: View {
+    let entry: KotelWidgetEntry
+    
+    var rotationAngle: Double {
+        entry.bearingToWall - entry.compassHeading
+    }
+    
+    var body: some View {
+        HStack(spacing: 8) {
+            if entry.hasLocation {
+                Image(systemName: "arrow.up.circle.fill")
+                    .font(.title2)
+                    .rotationEffect(.degrees(rotationAngle))
+            } else {
+                Image(systemName: "location.slash")
+                    .font(.title3)
+                    .foregroundStyle(.tertiary)
+            }
+            
+            VStack(alignment: .leading, spacing: 2) {
+                HStack(spacing: 3) {
+                    Image(systemName: "building.columns.fill")
+                        .font(.caption2)
+                    Text("Kotel")
+                        .font(.caption.bold())
+                }
+                
+                if let distance = entry.formattedDistance {
+                    Text(distance)
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                } else {
+                    Text("Location unavailable")
+                        .font(.caption2)
+                        .foregroundStyle(.tertiary)
+                }
+            }
+        }
+    }
+}
+
+/// Inline Lock Screen widget
+struct InlineWidgetView: View {
+    let entry: KotelWidgetEntry
+    
+    var body: some View {
+        HStack(spacing: 4) {
+            Image(systemName: "building.columns.fill")
+            
+            if let distance = entry.formattedDistance {
+                Text("Kotel \(distance)")
+            } else {
+                Text("Kotel")
+            }
+        }
+    }
+}
