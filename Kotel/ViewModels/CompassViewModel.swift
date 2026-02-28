@@ -235,7 +235,7 @@ class CompassViewModel {
 class SharedLocationManager {
     static let shared = SharedLocationManager()
 
-    private let appGroupIdentifier = "group.com.kotal.compass"
+    private let appGroupIdentifier = "group.com.kotel.compass"
     private let userDefaults: UserDefaults?
 
     private init() {
