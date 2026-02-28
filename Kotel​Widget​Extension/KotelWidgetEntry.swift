@@ -61,17 +61,9 @@ struct KotelWidgetProvider: TimelineProvider {
             print("[Widget] Shared data found: hasLocation=\(sharedData.hasLocation), age=\(Int(age))s")
             if sharedData.hasLocation, age < 600 {
                 print("[Widget] Using shared data (fresh)")
-                let entry = KotelWidgetEntry(
-                    date: Date(),
-                    bearingToWall: sharedData.bearingToWall,
-                    compassHeading: sharedData.compassHeading,
-                    distanceInMeters: sharedData.distanceInMeters,
-                    hasLocation: true,
-                    formattedDistance: sharedData.formattedDistance
-                )
-                // Use .never — refreshes are driven by NSWidgetWantsLocation (location changes)
-                // and WidgetCenter.shared.reloadTimelines from the app
-                completion(Timeline(entries: [entry], policy: .never))
+                let entries = generateTimelineEntries(from: sharedData)
+                // Use .atEnd to refresh when the last entry expires
+                completion(Timeline(entries: entries, policy: .atEnd))
                 return
             } else {
                 print("[Widget] Shared data stale or no location")
@@ -85,8 +77,56 @@ struct KotelWidgetProvider: TimelineProvider {
         Task {
             let entry = await fetchLocationEntry()
             print("[Widget] Direct fetch result: hasLocation=\(entry.hasLocation), distance=\(entry.distanceInMeters?.description ?? "nil")")
-            completion(Timeline(entries: [entry], policy: .never))
+            let entries = generateTimelineEntries(from: entry)
+            completion(Timeline(entries: entries, policy: .atEnd))
         }
+    }
+
+    /// Generates timeline entries for periodic widget updates.
+    /// - Parameter data: Source data (either SharedLocationData or KotelWidgetEntry)
+    /// - Returns: Array of timeline entries with staggered update times
+    private func generateTimelineEntries(from sharedData: SharedLocationManager.SharedLocationData) -> [KotelWidgetEntry] {
+        var entries: [KotelWidgetEntry] = []
+        let now = Date()
+
+        // Generate entries for the next 2 hours, updating every 5 minutes
+        // Note: iOS may throttle updates based on battery and usage patterns
+        for minuteOffset in stride(from: 0, to: 120, by: 5) {
+            let entryDate = Calendar.current.date(byAdding: .minute, value: minuteOffset, to: now) ?? now
+            let entry = KotelWidgetEntry(
+                date: entryDate,
+                bearingToWall: sharedData.bearingToWall,
+                compassHeading: sharedData.compassHeading,
+                distanceInMeters: sharedData.distanceInMeters,
+                hasLocation: true,
+                formattedDistance: sharedData.formattedDistance
+            )
+            entries.append(entry)
+        }
+
+        return entries
+    }
+
+    /// Generates timeline entries from a single entry (overload for fallback case).
+    private func generateTimelineEntries(from entry: KotelWidgetEntry) -> [KotelWidgetEntry] {
+        var entries: [KotelWidgetEntry] = []
+        let now = Date()
+
+        // Generate entries for the next 2 hours, updating every 5 minutes
+        for minuteOffset in stride(from: 0, to: 120, by: 5) {
+            let entryDate = Calendar.current.date(byAdding: .minute, value: minuteOffset, to: now) ?? now
+            let updatedEntry = KotelWidgetEntry(
+                date: entryDate,
+                bearingToWall: entry.bearingToWall,
+                compassHeading: entry.compassHeading,
+                distanceInMeters: entry.distanceInMeters,
+                hasLocation: entry.hasLocation,
+                formattedDistance: entry.formattedDistance
+            )
+            entries.append(updatedEntry)
+        }
+
+        return entries
     }
 
     /// Fetches location directly via CLLocationManager and builds an entry.
