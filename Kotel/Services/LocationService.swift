@@ -26,7 +26,7 @@ class LocationService: NSObject, CLLocationManagerDelegate {
     }
 
     func requestPermission() {
-        manager.requestWhenInUseAuthorization()
+        manager.requestAlwaysAuthorization()
     }
 
     func startUpdates() {
