@@ -18,7 +18,7 @@
 		8A535E2F2F4E1C2100E436EC /* Kotel​Widget​ExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8A535E1F2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8A535E422F4E1CA500E436EC /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A535E412F4E1CA500E436EC /* ActivityKit.framework */; platformFilters = (ios, macos, ); };
 		8A6D95202F4DF73E003A15A2 /* Kotel Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A6D95162F4DF73D003A15A2 /* Kotel Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8A6D959D2F4DFEE8003A15A2 /* CompassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1111122F4B2EC900EE4A02 /* CompassViewModel.swift */; };
+
 		8A7846D22F4B2EC900EE4A02 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A7846D42F4B306100EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
@@ -385,7 +385,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6D959D2F4DFEE8003A15A2 /* CompassViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
