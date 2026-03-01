@@ -2,7 +2,7 @@
 //  Kotel_WatchApp.swift
 //  Kotel Watch Watch App
 //
-//  Created by Idan Moshe on 24/02/2026.
+//  Created by Idan Moshe on 01/03/2026.
 //
 
 import SwiftUI
