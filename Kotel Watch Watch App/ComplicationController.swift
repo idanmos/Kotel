@@ -10,7 +10,6 @@ import WidgetKit
 import CoreLocation
 
 /// Widget bundle for all watch complications
-@main
 struct KotelWatchWidgetBundle: WidgetBundle {
     var body: some Widget {
         KotelComplicationWidget()
