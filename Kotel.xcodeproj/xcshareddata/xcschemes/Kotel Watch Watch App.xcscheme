@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "2640"
-   version = "1.7">
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A6D95152F4DF73D003A15A2"
+               BlueprintIdentifier = "8AB3F7962F5438AB00DBC455"
                BuildableName = "Kotel Watch Watch App.app"
                BlueprintName = "Kotel Watch Watch App"
                ReferencedContainer = "container:Kotel.xcodeproj">
@@ -59,7 +59,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A6D95152F4DF73D003A15A2"
+            BlueprintIdentifier = "8AB3F7962F5438AB00DBC455"
             BuildableName = "Kotel Watch Watch App.app"
             BlueprintName = "Kotel Watch Watch App"
             ReferencedContainer = "container:Kotel.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A6D95152F4DF73D003A15A2"
+            BlueprintIdentifier = "8AB3F7962F5438AB00DBC455"
             BuildableName = "Kotel Watch Watch App.app"
             BlueprintName = "Kotel Watch Watch App"
             ReferencedContainer = "container:Kotel.xcodeproj">
