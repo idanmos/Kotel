@@ -66,17 +66,11 @@ struct WatchNavigatorContent: View {
             Spacer()
 
             if let distance = viewModel.distanceToWall {
-                VStack(spacing: 4) {
-                    Text(viewModel.formattedDistance(distance))
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundStyle(.white)
-                        .contentTransition(.numericText())
-                        .animation(.snappy, value: viewModel.formattedDistance(distance))
-
-                    Text(viewModel.formattedDistanceSecondary(distance))
-                        .font(.caption2)
-                        .foregroundStyle(.white.opacity(0.5))
-                }
+                Text(viewModel.formattedDistance(distance))
+                    .font(.system(size: 24, weight: .bold, design: .rounded))
+                    .foregroundStyle(.white)
+                    .contentTransition(.numericText())
+                    .animation(.snappy, value: viewModel.formattedDistance(distance))
             }
 
             if !viewModel.hasLocation {

@@ -18,6 +18,7 @@ struct CompassView: View {
             DirectionNeedle(rotationDegrees: rotationDegrees, isActive: isActive)
         }
         .frame(width: 300, height: 300)
+        .environment(\.layoutDirection, .leftToRight)
     }
 }
 
