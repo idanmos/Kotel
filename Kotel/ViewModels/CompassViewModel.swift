@@ -7,7 +7,11 @@
 
 import CoreLocation
 import SwiftUI
+#if os(iOS)
 import UIKit
+#elseif os(watchOS)
+import WatchKit
+#endif
 
 @Observable
 class CompassViewModel {
@@ -181,11 +185,11 @@ class HapticManager {
     }
 
     func provideFeedbackForAlignment(angle: Double) {
-        #if os(iOS)
         let absoluteAngle = abs(angle)
         let now = Date()
         let elapsed = now.timeIntervalSince(lastFeedbackTime)
 
+        #if os(iOS)
         if absoluteAngle <= 3 {
             if elapsed >= 0.4 {
                 impactHeavy.impactOccurred(intensity: 1.0)
@@ -201,6 +205,29 @@ class HapticManager {
         } else if absoluteAngle <= 20 {
             if elapsed >= 0.5 {
                 impactMedium.impactOccurred(intensity: 0.4)
+                lastFeedbackTime = now
+                lastFeedbackAngle = absoluteAngle
+            }
+        } else {
+            lastFeedbackAngle = absoluteAngle
+        }
+        #elseif os(watchOS)
+        // watchOS haptic feedback
+        if absoluteAngle <= 3 {
+            if elapsed >= 0.4 {
+                WKInterfaceDevice.current().play(.success)
+                lastFeedbackTime = now
+                lastFeedbackAngle = absoluteAngle
+            }
+        } else if absoluteAngle <= 8 {
+            if elapsed >= 0.4 {
+                WKInterfaceDevice.current().play(.directionUp)
+                lastFeedbackTime = now
+                lastFeedbackAngle = absoluteAngle
+            }
+        } else if absoluteAngle <= 20 {
+            if elapsed >= 0.5 {
+                WKInterfaceDevice.current().play(.click)
                 lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
