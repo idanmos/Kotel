@@ -109,18 +109,6 @@
         }
       }
     },
-    "NSHumanReadableCopyright" : {
-      "comment" : "Copyright (human-readable)",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : ""
-          }
-        }
-      }
-    },
     "NSLocationAlwaysAndWhenInUseUsageDescription" : {
       "comment" : "Privacy - Location Always and When In Use Usage Description",
       "extractionState" : "extracted_with_value",
@@ -171,18 +159,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "דערלויב צוטריט צום אָרט כדי דער קאָמפּאַס קען ווייַטער ווייַזן צו דער כּותל אין הינטערגרונט"
-          }
-        }
-      }
-    },
-    "NSLocationUsageDescription" : {
-      "comment" : "Privacy - Location Usage Description",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Allow location access so the widget can point you toward the Kotel in Jerusalem"
           }
         }
       }
