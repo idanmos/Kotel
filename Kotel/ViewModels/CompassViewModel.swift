@@ -171,9 +171,9 @@ class HapticManager {
     static let shared = HapticManager()
 
     #if os(iOS)
-    private let impactLight = UIImpactFeedbackGenerator(style: .light)
     private let impactMedium = UIImpactFeedbackGenerator(style: .medium)
     private let impactHeavy = UIImpactFeedbackGenerator(style: .heavy)
+    private let notificationGenerator = UINotificationFeedbackGenerator()
     #endif
 
     private var lastFeedbackAngle: Double = 1000
@@ -181,9 +181,9 @@ class HapticManager {
 
     private init() {
         #if os(iOS)
-        impactLight.prepare()
         impactMedium.prepare()
         impactHeavy.prepare()
+        notificationGenerator.prepare()
         #endif
     }
 
@@ -194,20 +194,34 @@ class HapticManager {
 
         #if os(iOS)
         if absoluteAngle <= 3 {
-            if elapsed >= 0.4 {
-                impactHeavy.impactOccurred(intensity: 1.0)
+            // Dead center — strongest feedback (notification vibration)
+            if elapsed >= 0.3 {
+                notificationGenerator.notificationOccurred(.success)
+                notificationGenerator.prepare()
                 lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
         } else if absoluteAngle <= 8 {
-            if elapsed >= 0.4 {
-                impactHeavy.impactOccurred(intensity: 0.6)
+            // Very close — heavy impact at full intensity
+            if elapsed >= 0.35 {
+                impactHeavy.impactOccurred(intensity: 1.0)
+                impactHeavy.prepare()
                 lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
-        } else if absoluteAngle <= 20 {
+        } else if absoluteAngle <= 15 {
+            // Getting close — strong medium impact
+            if elapsed >= 0.4 {
+                impactMedium.impactOccurred(intensity: 0.8)
+                impactMedium.prepare()
+                lastFeedbackTime = now
+                lastFeedbackAngle = absoluteAngle
+            }
+        } else if absoluteAngle <= 25 {
+            // Approaching — gentle nudge
             if elapsed >= 0.5 {
-                impactMedium.impactOccurred(intensity: 0.4)
+                impactMedium.impactOccurred(intensity: 0.5)
+                impactMedium.prepare()
                 lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
@@ -215,20 +229,29 @@ class HapticManager {
             lastFeedbackAngle = absoluteAngle
         }
         #elseif os(watchOS)
-        // watchOS haptic feedback
         if absoluteAngle <= 3 {
-            if elapsed >= 0.4 {
-                WKInterfaceDevice.current().play(.success)
+            // Dead center — strongest watchOS haptic
+            if elapsed >= 0.3 {
+                WKInterfaceDevice.current().play(.notification)
                 lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
         } else if absoluteAngle <= 8 {
+            // Very close
+            if elapsed >= 0.35 {
+                WKInterfaceDevice.current().play(.success)
+                lastFeedbackTime = now
+                lastFeedbackAngle = absoluteAngle
+            }
+        } else if absoluteAngle <= 15 {
+            // Getting close
             if elapsed >= 0.4 {
                 WKInterfaceDevice.current().play(.directionUp)
                 lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
-        } else if absoluteAngle <= 20 {
+        } else if absoluteAngle <= 25 {
+            // Approaching
             if elapsed >= 0.5 {
                 WKInterfaceDevice.current().play(.click)
                 lastFeedbackTime = now

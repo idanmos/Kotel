@@ -226,8 +226,18 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				ar,
 				Base,
+				de,
+				en,
+				es,
+				fr,
+				he,
+				hi,
+				"pt-BR",
+				ru,
+				yi,
+				"zh-Hans",
 			);
 			mainGroup = 8A7846AB2F4B2B5F00EE4A02;
 			minimizedProjectReferenceProxies = 1;
@@ -518,6 +528,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kotel Watch";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.idanmoshe.Kotel;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,6 +561,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Kotel Watch";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.idanmoshe.Kotel;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

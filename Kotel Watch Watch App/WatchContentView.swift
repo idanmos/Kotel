@@ -43,71 +43,104 @@ struct WatchNavigatorContent: View {
     @State private var showSettings = false
     @State private var showDetails = false
 
+    /// Cardinal direction string for a bearing in degrees
+    private func cardinalDirection(for bearing: Double) -> String {
+        let normalized = bearing.truncatingRemainder(dividingBy: 360)
+        let positive = normalized < 0 ? normalized + 360 : normalized
+        let directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+        let index = Int((positive + 22.5) / 45.0) % 8
+        return directions[index]
+    }
+
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 8) {
-                Text(verbatim: "הכותל")
-                    .font(.system(size: 18, weight: .bold, design: .serif))
-                    .foregroundStyle(.white)
-                    .environment(\.layoutDirection, .rightToLeft)
+        GeometryReader { geometry in
+            let compassSize = min(geometry.size.width, geometry.size.height) * 0.65
+            let scaleFactor = compassSize / 140.0
 
-                Spacer()
+            ZStack {
+                // Main content
+                VStack(spacing: 2) {
+                    Text(verbatim: "הכותל")
+                        .font(.system(size: 14, weight: .bold, design: .serif))
+                        .foregroundStyle(.white.opacity(0.8))
+                        .environment(\.layoutDirection, .rightToLeft)
+                        .padding(.top, 8)
 
+                    Spacer(minLength: 0)
+
+                    Button {
+                        showDetails = true
+                    } label: {
+                        WatchCompassView(
+                            rotationDegrees: viewModel.rotationAngle,
+                            isActive: viewModel.hasLocation
+                        )
+                        .scaleEffect(scaleFactor)
+                        .frame(width: compassSize, height: compassSize)
+                    }
+                    .buttonStyle(.plain)
+                    .animation(.smooth(duration: 0.3), value: viewModel.rotationAngle)
+
+                    if viewModel.isCalibrating {
+                        Image(systemName: "gyroscope")
+                            .font(.caption2)
+                            .symbolEffect(.variableColor.iterative, options: .repeating)
+                            .foregroundStyle(.white.opacity(0.5))
+                    }
+
+                    Spacer(minLength: 0)
+
+                    // Distance + bearing
+                    VStack(spacing: 2) {
+                        if viewModel.settings.showDistance, let distance = viewModel.distanceToWall {
+                            Text(viewModel.formattedDistance(distance))
+                                .font(.system(size: 20, weight: .bold, design: .rounded))
+                                .foregroundStyle(.white)
+                                .contentTransition(.numericText())
+                                .animation(.snappy, value: viewModel.formattedDistance(distance))
+                                .minimumScaleFactor(0.8)
+                        }
+
+                        if viewModel.hasLocation {
+                            let bearing = viewModel.bearingToWall
+                            Text("\(Int(bearing))° \(cardinalDirection(for: bearing))")
+                                .font(.system(size: 12, weight: .medium, design: .rounded))
+                                .foregroundStyle(.white.opacity(0.5))
+                        }
+                    }
+                    .padding(.bottom, 4)
+
+                    if !viewModel.hasLocation {
+                        HStack(spacing: 4) {
+                            ProgressView()
+                                .tint(.white.opacity(0.5))
+                            Text("Acquiring…", bundle: .main, comment: "Message shown while getting GPS location on watch")
+                                .font(.caption2)
+                                .foregroundStyle(.white.opacity(0.4))
+                        }
+                        .padding(.bottom, 4)
+                    }
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+            // Settings overlay button
+            .overlay(alignment: .topTrailing) {
                 Button {
-                    showDetails = true
+                    showSettings = true
                 } label: {
-                    WatchCompassView(
-                        rotationDegrees: viewModel.rotationAngle,
-                        isActive: viewModel.hasLocation
-                    )
+                    Image(systemName: "gearshape.fill")
+                        .font(.system(size: 16))
+                        .foregroundStyle(.white.opacity(0.5))
+                        .padding(8)
                 }
                 .buttonStyle(.plain)
-                .animation(.smooth(duration: 0.3), value: viewModel.rotationAngle)
-
-                if viewModel.isCalibrating {
-                    Image(systemName: "gyroscope")
-                        .font(.caption2)
-                        .symbolEffect(.variableColor.iterative, options: .repeating)
-                        .foregroundStyle(.white.opacity(0.5))
-                }
-
-                Spacer()
-
-                if viewModel.settings.showDistance, let distance = viewModel.distanceToWall {
-                    Text(viewModel.formattedDistance(distance))
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundStyle(.white)
-                        .contentTransition(.numericText())
-                        .animation(.snappy, value: viewModel.formattedDistance(distance))
-                }
-
-                if !viewModel.hasLocation {
-                    HStack(spacing: 4) {
-                        ProgressView()
-                            .tint(.white.opacity(0.5))
-                        Text("Acquiring…", bundle: .main, comment: "Message shown while getting GPS location on watch")
-                            .font(.caption2)
-                            .foregroundStyle(.white.opacity(0.4))
-                    }
-                }
             }
-            .padding(.vertical, 8)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        showSettings = true
-                    } label: {
-                        Image(systemName: "gearshape.fill")
-                            .foregroundStyle(.white.opacity(0.7))
-                    }
-                }
-            }
-            .sheet(isPresented: $showSettings) {
-                WatchSettingsView(settings: viewModel.settings)
-            }
-            .fullScreenCover(isPresented: $showDetails) {
-                WatchDetailView(viewModel: viewModel)
-            }
+        }
+        .sheet(isPresented: $showSettings) {
+            WatchSettingsView(settings: viewModel.settings)
+        }
+        .fullScreenCover(isPresented: $showDetails) {
+            WatchDetailView(viewModel: viewModel)
         }
     }
 }

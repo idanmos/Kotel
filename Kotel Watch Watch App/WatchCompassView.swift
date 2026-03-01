@@ -26,16 +26,20 @@ struct WatchCompassView: View {
 }
 
 struct WatchCompassRing: View {
+    private static let amberGold = Color(red: 0.95, green: 0.75, blue: 0.2)
+
     var body: some View {
         ZStack {
+            // Outer ring with warm gradient
             Circle()
                 .stroke(
                     AngularGradient(
                         colors: [
-                            .blue.opacity(0.1),
-                            .blue.opacity(0.3),
-                            .cyan.opacity(0.2),
-                            .blue.opacity(0.1)
+                            amberGold.opacity(0.15),
+                            .white.opacity(0.08),
+                            amberGold.opacity(0.12),
+                            .white.opacity(0.06),
+                            amberGold.opacity(0.15)
                         ],
                         center: .center
                     ),
@@ -43,30 +47,52 @@ struct WatchCompassRing: View {
                 )
                 .frame(width: 130, height: 130)
 
+            // Subtle inner ring fill
             Circle()
-                .stroke(Color.white.opacity(0.06), lineWidth: 20)
+                .stroke(Color.white.opacity(0.05), lineWidth: 20)
                 .frame(width: 120, height: 120)
 
-            ForEach(0..<36, id: \.self) { i in
-                let isMajor = i % 9 == 0
-                let isMedium = i % 3 == 0
+            // 72 tick marks (every 5°)
+            ForEach(0..<72, id: \.self) { i in
+                let degrees = Double(i) * 5
+                let isMajor = Int(degrees) % 45 == 0
+                let isMedium = Int(degrees) % 15 == 0
+
                 Rectangle()
-                    .fill(isMajor ? Color.white.opacity(0.7) : Color.white.opacity(isMedium ? 0.3 : 0.12))
-                    .frame(width: isMajor ? 1.5 : 1, height: isMajor ? 10 : (isMedium ? 6 : 4))
+                    .fill(
+                        isMajor
+                            ? Color.white.opacity(0.8)
+                            : Color.white.opacity(isMedium ? 0.35 : 0.12)
+                    )
+                    .frame(
+                        width: isMajor ? 1.5 : 1,
+                        height: isMajor ? 10 : (isMedium ? 7 : 4)
+                    )
                     .offset(y: -60)
-                    .rotationEffect(.degrees(Double(i) * 10))
+                    .rotationEffect(.degrees(degrees))
             }
 
-            let cardinals = [("N", 0.0), ("E", 90.0), ("S", 180.0), ("W", 270.0)]
-            ForEach(cardinals, id: \.0) { label, angle in
+            // 8 direction labels
+            let directions: [(String, Double)] = [
+                ("N", 0), ("NE", 45), ("E", 90), ("SE", 135),
+                ("S", 180), ("SW", 225), ("W", 270), ("NW", 315)
+            ]
+            ForEach(directions, id: \.0) { label, angle in
+                let isCardinal = ["N", "E", "S", "W"].contains(label)
                 Text(label)
-                    .font(.system(size: 10, weight: .semibold))
-                    .foregroundStyle(label == "N" ? .red.opacity(0.9) : .white.opacity(0.5))
-                    .offset(y: -50)
+                    .font(.system(size: isCardinal ? 10 : 7, weight: .semibold))
+                    .foregroundStyle(
+                        label == "N"
+                            ? Self.amberGold
+                            : .white.opacity(isCardinal ? 0.5 : 0.35)
+                    )
+                    .offset(y: -49)
                     .rotationEffect(.degrees(angle))
             }
         }
     }
+
+    private var amberGold: Color { Self.amberGold }
 }
 
 #Preview {
@@ -120,20 +146,20 @@ struct WatchDirectionNeedle: View {
 
             // Center pivot for Watch
             ZStack {
-                // Glow
+                // Softer outer glow
                 Circle()
                     .fill(
                         RadialGradient(
                             colors: isActive
-                                ? [Color(red: 1.0, green: 0.85, blue: 0.3).opacity(0.6), .clear]
-                                : [.gray.opacity(0.3), .clear],
+                                ? [Color(red: 1.0, green: 0.85, blue: 0.3).opacity(0.5), .clear]
+                                : [.gray.opacity(0.25), .clear],
                             center: .center,
-                            startRadius: 4,
-                            endRadius: 10
+                            startRadius: 3,
+                            endRadius: 14
                         )
                     )
-                    .frame(width: 20, height: 20)
-                    .blur(radius: 1)
+                    .frame(width: 28, height: 28)
+                    .blur(radius: 2)
 
                 // Main circle
                 Circle()

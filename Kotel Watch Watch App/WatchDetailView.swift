@@ -16,96 +16,64 @@ struct WatchDetailView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            // Main compass view
-            mainCompassTab
-                .tag(0)
-            
             // Map view
             mapViewTab
-                .tag(1)
-            
+                .tag(0)
+
             // Info view
             infoViewTab
-                .tag(2)
+                .tag(1)
         }
         .tabViewStyle(.verticalPage)
     }
-    
-    private var mainCompassTab: some View {
-        VStack(spacing: 8) {
-            Text(verbatim: "הכותל")
-                .font(.system(size: 18, weight: .bold, design: .serif))
-                .foregroundStyle(.white)
-                .environment(\.layoutDirection, .rightToLeft)
-            
-            Spacer()
-            
-            WatchCompassView(
-                rotationDegrees: viewModel.rotationAngle,
-                isActive: viewModel.hasLocation
-            )
-            .animation(.smooth(duration: 0.3), value: viewModel.rotationAngle)
-            
-            if viewModel.isCalibrating {
-                Image(systemName: "gyroscope")
-                    .font(.caption2)
-                    .symbolEffect(.variableColor.iterative, options: .repeating)
-                    .foregroundStyle(.white.opacity(0.5))
-            }
-            
-            Spacer()
-            
-            if viewModel.settings.showDistance, let distance = viewModel.distanceToWall {
-                Text(viewModel.formattedDistance(distance))
-                    .font(.system(size: 24, weight: .bold, design: .rounded))
-                    .foregroundStyle(.white)
-                    .contentTransition(.numericText())
-                    .animation(.snappy, value: viewModel.formattedDistance(distance))
-            }
-            
-            if !viewModel.hasLocation {
-                HStack(spacing: 4) {
-                    ProgressView()
-                        .tint(.white.opacity(0.5))
-                    Text("Acquiring…", bundle: .main, comment: "Message shown while getting GPS location on watch")
-                        .font(.caption2)
-                        .foregroundStyle(.white.opacity(0.4))
-                }
-            }
-        }
-        .padding(.vertical, 8)
-    }
-    
+
     private var mapViewTab: some View {
-        VStack(spacing: 4) {
-            Text("Map View", bundle: .main, comment: "Map view title on watch")
-                .font(.caption)
-                .foregroundStyle(.white.opacity(0.7))
-            
+        Group {
             if let userLocation = viewModel.locationService.location {
                 Map {
                     // User location
-                    Annotation("You", coordinate: userLocation.coordinate) {
+                    Annotation("", coordinate: userLocation.coordinate) {
                         Circle()
                             .fill(.blue)
-                            .frame(width: 12, height: 12)
+                            .frame(width: 10, height: 10)
                             .overlay(
                                 Circle()
                                     .stroke(.white, lineWidth: 2)
                             )
                     }
-                    
+
                     // Western Wall
                     Annotation("הכותל", coordinate: CompassViewModel.westernWallCoordinate) {
                         Image(systemName: "building.columns.fill")
-                            .font(.system(size: 16))
+                            .font(.system(size: 14))
                             .foregroundStyle(.yellow)
-                            .padding(6)
+                            .padding(4)
                             .background(.black.opacity(0.7))
                             .clipShape(Circle())
                     }
                 }
                 .mapStyle(.standard(elevation: .realistic))
+                .allowsHitTesting(false)
+                .overlay(alignment: .top) {
+                    Text("Map View", bundle: .main, comment: "Map view title on watch")
+                        .font(.caption2)
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 2)
+                        .background(.ultraThinMaterial, in: Capsule())
+                        .padding(.top, 4)
+                }
+                .overlay(alignment: .bottom) {
+                    if let distance = viewModel.distanceToWall {
+                        Text(viewModel.formattedDistance(distance))
+                            .font(.caption.bold())
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 4)
+                            .background(.ultraThinMaterial, in: Capsule())
+                            .padding(.bottom, 4)
+                    }
+                }
             } else {
                 VStack(spacing: 8) {
                     ProgressView()
