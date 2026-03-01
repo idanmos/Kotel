@@ -12,11 +12,11 @@
 		8A2222232F4B2EC900EE4A03 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1111132F4B2EC900EE4A03 /* CompassView.swift */; };
 		8A3333312F4B2EC900EE4A01 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A3333322F4B2EC900EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
-		8A3333332F4B2EC900EE4A03 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
-		8A3333342F4B2EC900EE4A04 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
 		8A6D95202F4DF73E003A15A2 /* Kotel Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A6D95162F4DF73D003A15A2 /* Kotel Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8A7846D22F4B2EC900EE4A02 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A7846D42F4B306100EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
+		8AB3F72F2F5411B700DBC455 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3F72E2F5411B700DBC455 /* AppSettings.swift */; };
+		8AB3F7302F5411B700DBC455 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3F72E2F5411B700DBC455 /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,7 @@
 		8A7846B42F4B2B5F00EE4A02 /* Kotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		8AB3F72E2F5411B700DBC455 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -151,6 +152,7 @@
 				8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */,
 				8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */,
 				8A4444442F4B2EC900EE4A04 /* Shared */,
+				8AB3F72E2F5411B700DBC455 /* AppSettings.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,13 +198,11 @@
 				8A7846B12F4B2B5F00EE4A02 /* Frameworks */,
 				8A7846B22F4B2B5F00EE4A02 /* Resources */,
 				8A6D95212F4DF73E003A15A2 /* Embed Watch Content */,
-				8A535E342F4E1C2100E436EC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				8A6D951F2F4DF73E003A15A2 /* PBXTargetDependency */,
-				8A535E2E2F4E1C2100E436EC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				8A7846B62F4B2B5F00EE4A02 /* Kotel */,
@@ -278,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB3F72F2F5411B700DBC455 /* AppSettings.swift in Sources */,
 				8A2222212F4B2EC900EE4A01 /* LocationService.swift in Sources */,
 				8A2222222F4B2EC900EE4A02 /* CompassViewModel.swift in Sources */,
 				8A2222232F4B2EC900EE4A03 /* CompassView.swift in Sources */,
@@ -288,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB3F7302F5411B700DBC455 /* AppSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +507,6 @@
 				INFOPLIST_FILE = Kotel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Kotel;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so the compass can keep pointing toward the Kotel even in the background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -519,7 +520,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanmoshe.Kotel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -546,7 +547,6 @@
 				INFOPLIST_FILE = Kotel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Kotel;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so the compass can keep pointing toward the Kotel even in the background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -560,7 +560,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanmoshe.Kotel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
