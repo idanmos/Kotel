@@ -8,26 +8,12 @@
 import CoreLocation
 import SwiftUI
 import UIKit
-import WidgetKit
 
 @Observable
 class CompassViewModel {
     let locationService = LocationService()
-    #if canImport(ActivityKit)
-    private(set) var liveActivityService: LiveActivityService?
-    #endif
-
-    var isLiveActivityEnabled = false
-
-    private var lastWidgetReloadDate = Date.distantPast
-    private var lastWidgetBearing: Double = .nan
 
     init() {
-        #if canImport(ActivityKit)
-        if #available(iOS 16.1, *) {
-            self.liveActivityService = LiveActivityService()
-        }
-        #endif
     }
 
     static let westernWallCoordinate = CLLocationCoordinate2D(
@@ -83,118 +69,26 @@ class CompassViewModel {
         startAutoUpdates()
     }
 
-    /// Automatically updates shared location data and Live Activity
+    /// Automatically provides haptic feedback
     private func startAutoUpdates() {
         Task {
-            print("🔄 Starting auto-updates...")
             // Wait for initial location
             while !hasLocation {
-                print("⏳ Waiting for location...")
                 try? await Task.sleep(for: .seconds(0.5))
             }
 
-            print("📍 Location acquired! Starting Live Activity...")
-            // Auto-start Live Activity
-            startLiveActivity()
-
-            // Keep updating
+            // Keep updating haptic feedback
             while true {
                 try? await Task.sleep(for: .seconds(2))
-                await updateSharedData()
+                await updateHaptics()
             }
         }
     }
 
-    /// Updates shared location data for widgets and Live Activity
-    private func updateSharedData() async {
-        guard hasLocation, let distance = distanceToWall else { return }
-
-        // Provide haptic feedback based on alignment
+    /// Provides haptic feedback based on alignment
+    private func updateHaptics() async {
+        guard hasLocation else { return }
         HapticManager.shared.provideFeedbackForAlignment(angle: rotationAngle)
-
-        // Save to App Groups for widgets
-        let sharedData = SharedLocationManager.SharedLocationData(
-            latitude: locationService.location?.coordinate.latitude ?? 0,
-            longitude: locationService.location?.coordinate.longitude ?? 0,
-            compassHeading: compassHeading,
-            bearingToWall: bearingToWall,
-            distanceInMeters: distance,
-            formattedDistance: formattedDistance(distance),
-            hasLocation: hasLocation,
-            isCalibrating: isCalibrating,
-            timestamp: Date()
-        )
-        SharedLocationManager.shared.saveLocationData(sharedData)
-
-        // Reload widget timeline when bearing changes significantly or every 60s
-        let bearingDelta = abs(bearingToWall - lastWidgetBearing)
-        let timeSinceReload = Date().timeIntervalSince(lastWidgetReloadDate)
-        if bearingDelta > 5 || timeSinceReload > 60 || lastWidgetBearing.isNaN {
-            WidgetCenter.shared.reloadTimelines(ofKind: "KotelWidget")
-            lastWidgetReloadDate = Date()
-            lastWidgetBearing = bearingToWall
-        }
-
-        // Auto-update Live Activity
-        await updateLiveActivity()
-    }
-    
-    /// Starts Live Activity with current compass data
-    func startLiveActivity() {
-        #if canImport(ActivityKit)
-        if #available(iOS 16.1, *) {
-            guard hasLocation, let distance = distanceToWall else {
-                print("❌ Cannot start Live Activity: hasLocation=\(hasLocation), distance=\(distanceToWall?.description ?? "nil")")
-                return
-            }
-
-            print("✅ Starting Live Activity...")
-            let state = LiveActivityService.createContentState(
-                bearingToWall: bearingToWall,
-                compassHeading: compassHeading,
-                distanceInMeters: distance,
-                hasLocation: hasLocation,
-                isCalibrating: isCalibrating,
-                formattedDistance: formattedDistance(distance)
-            )
-
-            liveActivityService?.startActivity(state: state)
-            isLiveActivityEnabled = true
-            print("✅ Live Activity started! isEnabled=\(isLiveActivityEnabled)")
-        }
-        #endif
-    }
-    
-    /// Updates Live Activity with current compass data
-    func updateLiveActivity() async {
-        #if canImport(ActivityKit)
-        if #available(iOS 16.1, *) {
-            guard isLiveActivityEnabled, hasLocation, let distance = distanceToWall else {
-                return
-            }
-
-            let state = LiveActivityService.createContentState(
-                bearingToWall: bearingToWall,
-                compassHeading: compassHeading,
-                distanceInMeters: distance,
-                hasLocation: hasLocation,
-                isCalibrating: isCalibrating,
-                formattedDistance: formattedDistance(distance)
-            )
-
-            await liveActivityService?.updateActivity(state: state)
-        }
-        #endif
-    }
-    
-    /// Stops Live Activity
-    func stopLiveActivity() {
-        #if canImport(ActivityKit)
-        if #available(iOS 16.1, *) {
-            liveActivityService?.endActivity()
-            isLiveActivityEnabled = false
-        }
-        #endif
     }
 
     func formattedDistance(_ distance: CLLocationDistance) -> String {
@@ -243,46 +137,6 @@ class CompassViewModel {
 }
 
 // MARK: - Helper Classes
-
-/// Manages sharing location data between app and widgets via App Groups
-class SharedLocationManager {
-    static let shared = SharedLocationManager()
-
-    private let appGroupIdentifier = "group.com.kotel.compass"
-    private let userDefaults: UserDefaults?
-
-    private init() {
-        userDefaults = UserDefaults(suiteName: appGroupIdentifier)
-    }
-
-    struct SharedLocationData: Codable {
-        let latitude: Double
-        let longitude: Double
-        let compassHeading: Double
-        let bearingToWall: Double
-        let distanceInMeters: Double
-        let formattedDistance: String
-        let hasLocation: Bool
-        let isCalibrating: Bool
-        let timestamp: Date
-    }
-
-    func saveLocationData(_ data: SharedLocationData) {
-        guard let userDefaults = userDefaults else { return }
-        if let encoded = try? JSONEncoder().encode(data) {
-            userDefaults.set(encoded, forKey: "sharedLocationData")
-            userDefaults.synchronize()
-        }
-    }
-
-    func getLocationData() -> SharedLocationData? {
-        guard let userDefaults = userDefaults,
-              let data = userDefaults.data(forKey: "sharedLocationData") else {
-            return nil
-        }
-        return try? JSONDecoder().decode(SharedLocationData.self, from: data)
-    }
-}
 
 /// Manages haptic feedback for compass alignment
 class HapticManager {
