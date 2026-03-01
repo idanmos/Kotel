@@ -12,6 +12,7 @@ import UIKit
 @Observable
 class CompassViewModel {
     let locationService = LocationService()
+    let settings = AppSettings.shared
 
     init() {
     }
@@ -40,11 +41,20 @@ class CompassViewModel {
 
     var compassHeading: Double {
         guard let heading = locationService.heading else { return 0 }
-        return heading.trueHeading >= 0 ? heading.trueHeading : heading.magneticHeading
+        
+        // Respect the useTrueNorth setting
+        if settings.useTrueNorth && heading.trueHeading >= 0 {
+            return heading.trueHeading
+        } else {
+            return heading.magneticHeading
+        }
     }
 
     var rotationAngle: Double {
-        let angle = bearingToWall - compassHeading
+        var angle = bearingToWall - compassHeading
+        angle = angle.truncatingRemainder(dividingBy: 360)
+        if angle > 180 { angle -= 360 }
+        if angle < -180 { angle += 360 }
         return angle
     }
 
@@ -64,7 +74,11 @@ class CompassViewModel {
         locationService.authorizationStatus
     }
 
+    private var isStarted = false
+
     func start() {
+        guard !isStarted else { return }
+        isStarted = true
         locationService.requestPermission()
         startAutoUpdates()
     }
@@ -79,7 +93,7 @@ class CompassViewModel {
 
             // Keep updating haptic feedback
             while true {
-                try? await Task.sleep(for: .seconds(2))
+                try? await Task.sleep(for: .seconds(0.3))
                 await updateHaptics()
             }
         }
@@ -88,35 +102,42 @@ class CompassViewModel {
     /// Provides haptic feedback based on alignment
     private func updateHaptics() async {
         guard hasLocation else { return }
-        HapticManager.shared.provideFeedbackForAlignment(angle: rotationAngle)
-    }
-
-    func formattedDistance(_ distance: CLLocationDistance) -> String {
-        let languageCode = Locale.current.language.languageCode?.identifier ?? "en"
-        
-        // Hebrew and Yiddish use Hebrew script units
-        let useHebrewUnits = languageCode == "he" || languageCode == "yi"
-        
-        if distance < 1000 {
-            let unit = useHebrewUnits ? "מ'" : "m"
-            return String(format: "%.0f %@", distance, unit)
-        } else {
-            let unit = useHebrewUnits ? "ק\"מ" : "km"
-            return String(format: "%.1f %@", distance / 1000, unit)
+        if settings.hapticFeedback {
+            HapticManager.shared.provideFeedbackForAlignment(angle: rotationAngle)
         }
     }
-    
-    func formattedDistanceSecondary(_ distance: CLLocationDistance) -> String {
-        let languageCode = Locale.current.language.languageCode?.identifier ?? "en"
-        
-        // Hebrew and Yiddish show miles as secondary, others show km
-        let useHebrewUnits = languageCode == "he" || languageCode == "yi"
-        
-        if useHebrewUnits {
-            let milesUnit = "מייל"
-            return String(format: "%.1f %@", distance / 1609.34, milesUnit)
-        } else {
-            return String(format: "%.1f ק\"מ", distance / 1000)
+
+    /// Formats distance using the user's preferred unit system
+    func formattedDistance(_ distance: CLLocationDistance) -> String {
+        let measurement = Measurement(value: distance, unit: UnitLength.meters)
+        let formatter = MeasurementFormatter()
+        formatter.unitStyle = .short
+
+        switch settings.distanceUnit {
+        case "metric":
+            formatter.unitOptions = .providedUnit
+            if distance >= 1000 {
+                formatter.numberFormatter.maximumFractionDigits = 1
+                return formatter.string(from: measurement.converted(to: .kilometers))
+            } else {
+                formatter.numberFormatter.maximumFractionDigits = 0
+                return formatter.string(from: measurement)
+            }
+        case "imperial":
+            formatter.unitOptions = .providedUnit
+            let miles = measurement.converted(to: .miles)
+            if miles.value < 0.1 {
+                formatter.numberFormatter.maximumFractionDigits = 0
+                return formatter.string(from: measurement.converted(to: .feet))
+            } else {
+                formatter.numberFormatter.maximumFractionDigits = 1
+                return formatter.string(from: miles)
+            }
+        default:
+            // Automatic — let the formatter pick the best unit for the locale
+            formatter.unitOptions = .naturalScale
+            formatter.numberFormatter.maximumFractionDigits = distance < 1000 ? 0 : 1
+            return formatter.string(from: measurement)
         }
     }
 
@@ -149,7 +170,7 @@ class HapticManager {
     #endif
 
     private var lastFeedbackAngle: Double = 1000
-    private var isAligned: Bool = false
+    private var lastFeedbackTime: Date = .distantPast
 
     private init() {
         #if os(iOS)
@@ -162,27 +183,28 @@ class HapticManager {
     func provideFeedbackForAlignment(angle: Double) {
         #if os(iOS)
         let absoluteAngle = abs(angle)
+        let now = Date()
+        let elapsed = now.timeIntervalSince(lastFeedbackTime)
 
-        if absoluteAngle <= 2 {
-            if !isAligned {
-                impactHeavy.impactOccurred()
-                isAligned = true
+        if absoluteAngle <= 3 {
+            if elapsed >= 0.4 {
+                impactHeavy.impactOccurred(intensity: 1.0)
+                lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
-        } else if absoluteAngle <= 5 {
-            isAligned = false
-            if abs(absoluteAngle - lastFeedbackAngle) >= 1 {
-                impactMedium.impactOccurred()
+        } else if absoluteAngle <= 8 {
+            if elapsed >= 0.4 {
+                impactHeavy.impactOccurred(intensity: 0.6)
+                lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
-        } else if absoluteAngle <= 15 {
-            isAligned = false
-            if abs(absoluteAngle - lastFeedbackAngle) >= 3 {
-                impactLight.impactOccurred()
+        } else if absoluteAngle <= 20 {
+            if elapsed >= 0.5 {
+                impactMedium.impactOccurred(intensity: 0.4)
+                lastFeedbackTime = now
                 lastFeedbackAngle = absoluteAngle
             }
         } else {
-            isAligned = false
             lastFeedbackAngle = absoluteAngle
         }
         #endif

@@ -10,6 +10,7 @@ import CoreLocation
 
 struct ContentView: View {
     @State private var viewModel = CompassViewModel()
+    @State private var selectedTab = 0
 
     var body: some View {
         ZStack {
@@ -23,12 +24,27 @@ struct ContentView: View {
             case .denied, .restricted:
                 DeniedPermissionView()
             case .authorizedWhenInUse, .authorizedAlways:
-                NavigatorContent(viewModel: viewModel)
+                TabView(selection: $selectedTab) {
+                    NavigatorContent(viewModel: viewModel)
+                        .tag(0)
+                        .tabItem {
+                            Label(String(localized: "Compass", bundle: .main, comment: "Tab label for compass view"), systemImage: "safari.fill")
+                        }
+                    
+                    SettingsView()
+                        .tag(1)
+                        .tabItem {
+                            Label(String(localized: "Settings", bundle: .main, comment: "Tab label for settings view"), systemImage: "gearshape.fill")
+                        }
+                }
             @unknown default:
                 PermissionView {
                     viewModel.start()
                 }
             }
+        }
+        .task {
+            viewModel.start()
         }
         .preferredColorScheme(.dark)
     }
@@ -63,6 +79,7 @@ struct BackgroundView: View {
 
 struct NavigatorContent: View {
     @Bindable var viewModel: CompassViewModel
+    let settings = AppSettings.shared
 
     var body: some View {
         VStack(spacing: 0) {
@@ -107,7 +124,7 @@ struct NavigatorContent: View {
 
             Spacer()
 
-            if let distance = viewModel.distanceToWall {
+            if settings.showDistance, let distance = viewModel.distanceToWall {
                 DistanceCard(distance: distance, viewModel: viewModel)
                     .padding(.bottom, 16)
             }
@@ -123,8 +140,10 @@ struct NavigatorContent: View {
                 .padding(.bottom, 32)
             }
 
-            CoordinateBar(viewModel: viewModel)
-                .padding(.bottom, 8)
+            if settings.showCoordinates {
+                CoordinateBar(viewModel: viewModel)
+                    .padding(.bottom, 8)
+            }
         }
         .padding(.horizontal, 20)
     }
@@ -152,10 +171,6 @@ struct DistanceCard: View {
                 .foregroundStyle(.white)
                 .contentTransition(.numericText())
                 .animation(.snappy, value: viewModel.formattedDistance(distance))
-
-            Text(viewModel.formattedDistanceSecondary(distance))
-                .font(.subheadline)
-                .foregroundStyle(.white.opacity(0.35))
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 20)
