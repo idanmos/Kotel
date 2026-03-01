@@ -31,13 +31,17 @@ class LocationService: NSObject, CLLocationManagerDelegate {
     /// Starts location and heading updates
     func startUpdates() {
         manager.startUpdatingLocation()
+        #if os(iOS) || os(watchOS)
         manager.startUpdatingHeading()
+        #endif
     }
 
     /// Stops all location and heading updates
     func stopUpdates() {
         manager.stopUpdatingLocation()
+        #if os(iOS) || os(watchOS)
         manager.stopUpdatingHeading()
+        #endif
     }
 
     nonisolated func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -56,7 +60,12 @@ class LocationService: NSObject, CLLocationManagerDelegate {
         Task { @MainActor in
             self.authorizationStatus = manager.authorizationStatus
             
-            if manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways {
+            #if os(macOS)
+            let isAuthorized = manager.authorizationStatus == .authorizedAlways
+            #else
+            let isAuthorized = manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways
+            #endif
+            if isAuthorized {
                 self.startUpdates()
             }
         }

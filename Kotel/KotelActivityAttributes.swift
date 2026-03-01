@@ -5,6 +5,7 @@
 //  Created by Idan Moshe on 24/02/2026.
 //
 
+#if os(iOS)
 import ActivityKit
 import Foundation
 
@@ -38,3 +39,4 @@ struct KotelActivityAttributes: ActivityAttributes {
     var wallLatitude: Double = 31.7767
     var wallLongitude: Double = 35.2345
 }
+#endif

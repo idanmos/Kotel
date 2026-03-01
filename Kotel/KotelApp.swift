@@ -12,6 +12,19 @@ struct KotelApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            #if os(macOS)
+                .frame(width: 500, height: 700)
+            #endif
         }
+        #if os(macOS)
+        .windowResizability(.contentSize)
+        #endif
+
+        #if os(macOS)
+        Settings {
+            SettingsView()
+                .frame(width: 500, height: 700)
+        }
+        #endif
     }
 }

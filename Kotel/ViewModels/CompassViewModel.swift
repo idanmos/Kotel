@@ -11,6 +11,8 @@ import SwiftUI
 import UIKit
 #elseif os(watchOS)
 import WatchKit
+#elseif os(macOS)
+import AppKit
 #endif
 
 @Observable
@@ -67,7 +69,8 @@ class CompassViewModel {
     }
 
     var isCalibrating: Bool {
-        headingAccuracy < 0
+        guard locationService.heading != nil else { return false }
+        return headingAccuracy < 0
     }
 
     var hasLocation: Bool {
@@ -234,6 +237,9 @@ class HapticManager {
         } else {
             lastFeedbackAngle = absoluteAngle
         }
+        #elseif os(macOS)
+        // No haptic feedback on macOS
+        _ = absoluteAngle
         #endif
     }
 }

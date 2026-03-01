@@ -82,12 +82,10 @@ struct DeniedPermissionView: View {
             }
 
             Button {
-                if let url = URL(string: UIApplication.openSettingsURLString) {
-                    UIApplication.shared.open(url)
-                }
+                openLocationSettings()
             } label: {
                 Label {
-                    Text("Open Settings", bundle: .main, comment: "Button to open iOS Settings app")
+                    Text("Open Settings", bundle: .main, comment: "Button to open Settings app")
                 } icon: {
                     Image(systemName: "gear")
                 }
@@ -103,6 +101,18 @@ struct DeniedPermissionView: View {
             Spacer()
             Spacer()
         }
+    }
+
+    private func openLocationSettings() {
+        #if os(iOS)
+        if let url = URL(string: UIApplication.openSettingsURLString) {
+            UIApplication.shared.open(url)
+        }
+        #elseif os(macOS)
+        if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_LocationServices") {
+            NSWorkspace.shared.open(url)
+        }
+        #endif
     }
 }
 

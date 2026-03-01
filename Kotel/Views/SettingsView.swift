@@ -12,6 +12,19 @@ struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @Bindable var settings = AppSettings.shared
     
+    /// Opens the appropriate language settings for the current platform
+    private func openLanguageSettings() {
+        #if os(iOS)
+        if let url = URL(string: UIApplication.openSettingsURLString) {
+            UIApplication.shared.open(url)
+        }
+        #elseif os(macOS)
+        if let url = URL(string: "x-apple.systempreferences:com.apple.Language-Text") {
+            NSWorkspace.shared.open(url)
+        }
+        #endif
+    }
+
     /// Dynamic app version string
     private var appVersion: String {
         let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
@@ -69,20 +82,20 @@ struct SettingsView: View {
                                 isOn: $settings.useTrueNorth
                             )
 
+                            #if os(iOS) || os(watchOS)
                             SettingsToggleRow(
                                 icon: "hand.tap.fill",
                                 title: String(localized: "Haptic Feedback", bundle: .main, comment: "Toggle haptic feedback"),
                                 subtitle: String(localized: "Vibrates as you point toward the Kotel", bundle: .main, comment: "Explanation of haptic feedback setting"),
                                 isOn: $settings.hapticFeedback
                             )
+                            #endif
                         }
                         
                         // Language
                         SettingsSection(title: String(localized: "Language", bundle: .main, comment: "Settings section header for language settings")) {
                             Button {
-                                if let url = URL(string: UIApplication.openSettingsURLString) {
-                                    UIApplication.shared.open(url)
-                                }
+                                openLanguageSettings()
                             } label: {
                                 HStack(spacing: 16) {
                                     Image(systemName: "globe")
@@ -95,7 +108,7 @@ struct SettingsView: View {
                                             .font(.body)
                                             .foregroundStyle(.white)
 
-                                        Text("Change in Settings", bundle: .main, comment: "Subtitle for language setting that opens iOS Settings")
+                                        Text("Change in Settings", bundle: .main, comment: "Subtitle for language setting that opens system Settings")
                                             .font(.caption)
                                             .foregroundStyle(.white.opacity(0.5))
                                     }
@@ -168,7 +181,7 @@ struct SettingsSection<Content: View>: View {
                 .tracking(1.2)
                 .padding(.leading, 4)
             
-            if #available(iOS 26.0, *) {
+            if #available(iOS 26.0, macOS 26.0, watchOS 26.0, *) {
                 VStack(spacing: 1) {
                     content
                 }
