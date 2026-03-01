@@ -113,52 +113,10 @@
       "comment" : "Privacy - Location Always and When In Use Usage Description",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erlaube Standortzugriff, damit der Kompass auch im Hintergrund zur Kotel zeigen kann"
-          }
-        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Allow location access so the compass can keep pointing toward the Kotel even in the background"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Permite el acceso a la ubicación para que la brújula pueda seguir señalando hacia el Kotel en segundo plano"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Autorisez l'accès à la localisation pour que la boussole puisse continuer à pointer vers le Kotel en arrière-plan"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אפשר גישה למיקום כדי שהמצפן יוכל להמשיך להצביע לכיוון הכותל גם ברקע"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Permita o acesso à localização para que a bússola possa continuar apontando para o Kotel em segundo plano"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Разрешите доступ к местоположению, чтобы компас мог продолжать указывать на Котель в фоновом режиме"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "דערלויב צוטריט צום אָרט כדי דער קאָמפּאַס קען ווייַטער ווייַזן צו דער כּותל אין הינטערגרונט"
           }
         }
       }
@@ -213,18 +171,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "דערלויב צוטריט צום אָרט כדי מיר קענען ווייַזן צו די כּותל אין ירושלים"
-          }
-        }
-      }
-    },
-    "NSSupportsLiveActivities" : {
-      "comment" : "Supports Live Activities",
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "YES"
           }
         }
       }
