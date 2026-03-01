@@ -14,24 +14,12 @@
 		8A3333322F4B2EC900EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
 		8A3333332F4B2EC900EE4A03 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A3333342F4B2EC900EE4A04 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
-		8A535E172F4E1AB400E436EC /* KotelActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A535E162F4E1AB400E436EC /* KotelActivityAttributes.swift */; };
-		8A535E222F4E1C2000E436EC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A535E212F4E1C2000E436EC /* WidgetKit.framework */; };
-		8A535E242F4E1C2000E436EC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A535E232F4E1C2000E436EC /* SwiftUI.framework */; };
-		8A535E2F2F4E1C2100E436EC /* Kotel​Widget​ExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8A535E1F2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8A535E422F4E1CA500E436EC /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A535E412F4E1CA500E436EC /* ActivityKit.framework */; platformFilters = (ios, macos, ); };
 		8A6D95202F4DF73E003A15A2 /* Kotel Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A6D95162F4DF73D003A15A2 /* Kotel Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8A7846D22F4B2EC900EE4A02 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A7846D42F4B306100EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A535E2D2F4E1C2100E436EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A7846AC2F4B2B5F00EE4A02 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A535E1E2F4E1C2000E436EC;
-			remoteInfo = "Kotel​Widget​ExtensionExtension";
-		};
 		8A6D951E2F4DF73E003A15A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A7846AC2F4B2B5F00EE4A02 /* Project object */;
@@ -42,17 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8A535E342F4E1C2100E436EC /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				8A535E2F2F4E1C2100E436EC /* Kotel​Widget​ExtensionExtension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A6D95212F4DF73E003A15A2 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,11 +47,6 @@
 		8A1111112F4B2EC900EE4A01 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		8A1111122F4B2EC900EE4A02 /* CompassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewModel.swift; sourceTree = "<group>"; };
 		8A1111132F4B2EC900EE4A03 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
-		8A535E162F4E1AB400E436EC /* KotelActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotelActivityAttributes.swift; sourceTree = "<group>"; };
-		8A535E1F2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Kotel​Widget​ExtensionExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A535E212F4E1C2000E436EC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
-		8A535E232F4E1C2000E436EC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
-		8A535E412F4E1CA500E436EC /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = System/Library/Frameworks/ActivityKit.framework; sourceTree = SDKROOT; };
 		8A6D95162F4DF73D003A15A2 /* Kotel Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kotel Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7846B42F4B2B5F00EE4A02 /* Kotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -82,20 +54,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8A535E302F4E1C2100E436EC /* Exceptions for "Kotel​Widget​Extension" folder in "Kotel​Widget​ExtensionExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 8A535E1E2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension */;
-		};
-		8A535E442F4E24A500E436EC /* Exceptions for "Kotel" folder in "Kotel​Widget​ExtensionExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				KotelActivityAttributes.swift,
-			);
-			target = 8A535E1E2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension */;
-		};
 		8AB3F6092F539C3200DBC455 /* Exceptions for "Kotel Watch Watch App" folder in "Kotel Watch Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -113,14 +71,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8A535E252F4E1C2000E436EC /* Kotel​Widget​Extension */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8A535E302F4E1C2100E436EC /* Exceptions for "Kotel​Widget​Extension" folder in "Kotel​Widget​ExtensionExtension" target */,
-			);
-			path = "Kotel​Widget​Extension";
-			sourceTree = "<group>";
-		};
 		8A6D95172F4DF73D003A15A2 /* Kotel Watch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -133,7 +83,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				8AB3F6442F539D3900DBC455 /* Exceptions for "Kotel" folder in "Kotel" target */,
-				8A535E442F4E24A500E436EC /* Exceptions for "Kotel" folder in "Kotel​Widget​ExtensionExtension" target */,
 			);
 			path = Kotel;
 			sourceTree = "<group>";
@@ -141,16 +90,6 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A535E1C2F4E1C2000E436EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A535E422F4E1CA500E436EC /* ActivityKit.framework in Frameworks */,
-				8A535E242F4E1C2000E436EC /* SwiftUI.framework in Frameworks */,
-				8A535E222F4E1C2000E436EC /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A6D95132F4DF73D003A15A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,28 +142,15 @@
 			path = Kotel;
 			sourceTree = "<group>";
 		};
-		8A535E202F4E1C2000E436EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8A535E412F4E1CA500E436EC /* ActivityKit.framework */,
-				8A535E212F4E1C2000E436EC /* WidgetKit.framework */,
-				8A535E232F4E1C2000E436EC /* SwiftUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8A7846AB2F4B2B5F00EE4A02 = {
 			isa = PBXGroup;
 			children = (
 				8A7846B62F4B2B5F00EE4A02 /* Kotel */,
 				8A6D95172F4DF73D003A15A2 /* Kotel Watch Watch App */,
-				8A535E252F4E1C2000E436EC /* Kotel​Widget​Extension */,
-				8A535E202F4E1C2000E436EC /* Frameworks */,
 				8A7846B52F4B2B5F00EE4A02 /* Products */,
 				8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */,
 				8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */,
 				8A4444442F4B2EC900EE4A04 /* Shared */,
-				8A535E162F4E1AB400E436EC /* KotelActivityAttributes.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,7 +159,6 @@
 			children = (
 				8A7846B42F4B2B5F00EE4A02 /* Kotel.app */,
 				8A6D95162F4DF73D003A15A2 /* Kotel Watch Watch App.app */,
-				8A535E1F2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,28 +166,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A535E1E2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A535E312F4E1C2100E436EC /* Build configuration list for PBXNativeTarget "Kotel​Widget​ExtensionExtension" */;
-			buildPhases = (
-				8A535E1B2F4E1C2000E436EC /* Sources */,
-				8A535E1C2F4E1C2000E436EC /* Frameworks */,
-				8A535E1D2F4E1C2000E436EC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8A535E252F4E1C2000E436EC /* Kotel​Widget​Extension */,
-			);
-			name = "Kotel​Widget​ExtensionExtension";
-			packageProductDependencies = (
-			);
-			productName = "Kotel​Widget​ExtensionExtension";
-			productReference = 8A535E1F2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		8A6D95152F4DF73D003A15A2 /* Kotel Watch Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A6D95242F4DF73E003A15A2 /* Build configuration list for PBXNativeTarget "Kotel Watch Watch App" */;
@@ -321,9 +224,6 @@
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
-					8A535E1E2F4E1C2000E436EC = {
-						CreatedOnToolsVersion = 26.4;
-					};
 					8A6D95152F4DF73D003A15A2 = {
 						CreatedOnToolsVersion = 26.4;
 					};
@@ -348,21 +248,11 @@
 			targets = (
 				8A7846B32F4B2B5F00EE4A02 /* Kotel */,
 				8A6D95152F4DF73D003A15A2 /* Kotel Watch Watch App */,
-				8A535E1E2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A535E1D2F4E1C2000E436EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A3333332F4B2EC900EE4A03 /* Localizable.xcstrings in Resources */,
-				8A3333342F4B2EC900EE4A04 /* InfoPlist.xcstrings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A6D95142F4DF73D003A15A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,20 +274,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A535E1B2F4E1C2000E436EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A6D95122F4DF73D003A15A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A2222212F4B2EC900EE4A01 /* LocationService.swift in Sources */,
 				8A2222222F4B2EC900EE4A02 /* CompassViewModel.swift in Sources */,
-				8A535E172F4E1AB400E436EC /* KotelActivityAttributes.swift in Sources */,
 				8A2222232F4B2EC900EE4A03 /* CompassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,11 +294,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A535E2E2F4E1C2100E436EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A535E1E2F4E1C2000E436EC /* Kotel​Widget​ExtensionExtension */;
-			targetProxy = 8A535E2D2F4E1C2100E436EC /* PBXContainerItemProxy */;
-		};
 		8A6D951F2F4DF73E003A15A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8A6D95152F4DF73D003A15A2 /* Kotel Watch Watch App */;
@@ -425,120 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8A535E322F4E1C2100E436EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				AUTOMATION_APPLE_EVENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = "Kotel​Widget​Extension/KotelWidgetExtension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N3N3LX399B;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = YES;
-				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Kotel​Widget​Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Kotel​Widget​Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Kotel.Kotel-Widget-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
-				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
-				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
-				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
-				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
-				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 1.3;
-			};
-			name = Debug;
-		};
-		8A535E332F4E1C2100E436EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				AUTOMATION_APPLE_EVENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = "Kotel​Widget​Extension/KotelWidgetExtension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N3N3LX399B;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
-				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
-				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
-				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
-				ENABLE_RESOURCE_ACCESS_LOCATION = YES;
-				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Kotel​Widget​Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Kotel​Widget​Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can point you toward the Kotel in Jerusalem";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.idanmoshe.Kotel.Kotel-Widget-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
-				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
-				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
-				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
-				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
-				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 1.3;
-			};
-			name = Release;
-		};
 		8A6D95222F4DF73E003A15A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -813,15 +576,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A535E312F4E1C2100E436EC /* Build configuration list for PBXNativeTarget "Kotel​Widget​ExtensionExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A535E322F4E1C2100E436EC /* Debug */,
-				8A535E332F4E1C2100E436EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8A6D95242F4DF73E003A15A2 /* Build configuration list for PBXNativeTarget "Kotel Watch Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
