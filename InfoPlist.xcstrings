@@ -32,7 +32,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "כותל"
+            "value" : "הכותל"
           }
         },
         "pt-BR" : {
@@ -86,7 +86,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "כותל"
+            "value" : "הכותל"
           }
         },
         "pt-BR" : {
@@ -105,18 +105,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "כּותל"
-          }
-        }
-      }
-    },
-    "NSLocationAlwaysAndWhenInUseUsageDescription" : {
-      "comment" : "Privacy - Location Always and When In Use Usage Description",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Allow location access so the compass can keep pointing toward the Kotel even in the background"
           }
         }
       }

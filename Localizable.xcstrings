@@ -1,1337 +1,3259 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "Acquiring location…" : {
-      "comment" : "Message shown while getting GPS location",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort wird ermittelt…"
+  "sourceLanguage": "en",
+  "strings": {
+    "": {},
+    "About": {
+      "comment": "Settings section header for about information",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acquiring location…"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אודות"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obteniendo ubicación…"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acquisition de la position…"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מאתר מיקום…"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obtendo localização…"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobre"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Определение местоположения…"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О приложении"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "געפֿינען אָרט…"
-          }
-        }
-      }
-    },
-    "Acquiring…" : {
-      "comment" : "Message shown while getting GPS location on watch",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ermitteln…"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acquiring…"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obteniendo…"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acquisition…"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מאתר…"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obtendo…"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск…"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "געפֿינען…"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "וועגן"
           }
         }
       }
     },
-    "Active" : {
-      "comment" : "Status label indicating compass is active",
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aktiv"
+    "Acquiring location…": {
+      "comment": "Message shown while getting GPS location",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort wird ermittelt…"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Active"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acquiring location…"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activo"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obteniendo ubicación…"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Actif"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acquisition de la position…"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "פעיל"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מאתר מיקום…"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ativo"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtendo localização…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Активно"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Определение местоположения…"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אַקטיוו"
-          }
-        }
-      }
-    },
-    "Allow Location" : {
-      "comment" : "Watch button to allow location",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort erlauben"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Allow Location"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Permitir ubicación"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Autoriser la localisation"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אפשר מיקום"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Permitir localização"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Разрешить геолокацию"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "דערלויב אָרט"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "געפֿינען אָרט…"
           }
         }
       }
     },
-    "Allow location access so we can\npoint you toward the Kotel in Jerusalem" : {
-      "comment" : "Permission screen description",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Erlaube Standortzugriff, damit wir dich\nzur Klagemauer in Jerusalem führen können"
+    "Acquiring…": {
+      "comment": "Message shown while getting GPS location on watch",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ermitteln…"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Allow location access so we can\npoint you toward the Kotel in Jerusalem"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acquiring…"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Permite el acceso a la ubicación para\nseñalarte hacia el Kotel en Jerusalén"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obteniendo…"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Autorisez l'accès à la localisation pour\nvous orienter vers le Kotel à Jérusalem"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acquisition…"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אפשר גישה למיקום כדי\nשנוכל להצביע לכיוון הכותל בירושלים"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מאתר…"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Permita o acesso à localização para\napontarmos para o Kotel em Jerusalém"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtendo…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Разрешите доступ к местоположению, чтобы\nмы могли указать на Котель в Иерусалиме"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск…"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "דערלויב צוטריט צום אָרט כדי\nמיר קענען ווייַזן צו די כּותל אין ירושלים"
-          }
-        }
-      }
-    },
-    "Calibrating…" : {
-      "comment" : "Message shown while calibrating compass",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kalibrierung…"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Calibrating…"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Calibrando…"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Calibrage…"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מכייל…"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Calibrando…"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Калибровка…"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "קאַליברירן…"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "געפֿינען…"
           }
         }
       }
     },
-    "Distance to Kotel" : {
-      "comment" : "Label showing distance to the Western Wall",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entfernung zur Kotel"
+    "Active": {
+      "comment": "Status label indicating compass is active",
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiv"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Distance to Kotel"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Distancia al Kotel"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activo"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Distance au Kotel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actif"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מרחק לכותל"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פעיל"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Distância ao Kotel"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativo"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Расстояние до Котеля"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Активно"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "דיסטאַנץ צו כּותל"
-          }
-        }
-      }
-    },
-    "Enable in Settings" : {
-      "comment" : "Watch denied permission description",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In Einstellungen aktivieren"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enable in Settings"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activar en ajustes"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activer dans Réglages"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "הפעל בהגדרות"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ativar nas configurações"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Включите в настройках"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "דערמעגלעכן אין סעטטינגס"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אַקטיוו"
           }
         }
       }
     },
-    "Enable Location" : {
-      "comment" : "Button to enable location services",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort aktivieren"
+    "Allow Location": {
+      "comment": "Watch button to allow location",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort erlauben"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enable Location"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow Location"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activar ubicación"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir ubicación"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Activer la localisation"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autoriser la localisation"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אפשר מיקום"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אפשר מיקום"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ativar localização"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir localização"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Включить геолокацию"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешить геолокацию"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "דערמעגלעכן אָרט"
-          }
-        }
-      }
-    },
-    "Find the Western Wall" : {
-      "comment" : "Permission screen title",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Finde die Klagemauer"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Find the Western Wall"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Encuentra el Muro Occidental"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trouvez le Mur occidental"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מצא את הכותל המערבי"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Encontre o Muro Ocidental"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Найдите Западную стену"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "געפֿינען די מערבֿ־וואַנט"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דערלויב אָרט"
           }
         }
       }
     },
-    "Heading: %lld°" : {
-      "comment" : "Current compass heading display",
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kurs: %lld°"
+    "Allow location access so we can\npoint you toward the Kotel in Jerusalem": {
+      "comment": "Permission screen description",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erlaube Standortzugriff, damit wir dich\nzur Klagemauer in Jerusalem führen können"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Heading: %lld°"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow location access so we can\npoint you toward the Kotel in Jerusalem"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rumbo: %lld°"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permite el acceso a la ubicación para\nseñalarte hacia el Kotel en Jerusalén"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cap : %lld°"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorisez l'accès à la localisation pour\nvous orienter vers le Kotel à Jérusalem"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "כיוון: %lld°"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אפשר גישה למיקום כדי\nשנוכל להצביע לכיוון הכותל בירושלים"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rumo: %lld°"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permita o acesso à localização para\napontarmos para o Kotel em Jerusalém"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Курс: %lld°"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешите доступ к местоположению, чтобы\nмы могли указать на Котель в Иерусалиме"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ריכטונג: %lld°"
-          }
-        }
-      }
-    },
-    "Kotel" : {
-      "comment" : "Short name for the Western Wall",
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kotel"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kotel"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kotel"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kotel"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "כותל"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kotel"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Котель"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "כּותל"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דערלויב צוטריט צום אָרט כדי\nמיר קענען ווייַזן צו די כּותל אין ירושלים"
           }
         }
       }
     },
-    "Location Access Needed" : {
-      "comment" : "Denied permission screen title",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standortzugriff erforderlich"
+    "App": {
+      "comment": "Settings section header for app information",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Location Access Needed"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אפליקציה"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Se necesita acceso a ubicación"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Accès à la localisation requis"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "נדרשת גישה למיקום"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acesso à localização necessário"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Требуется доступ к геолокации"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложение"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אָרט צוטריט דאַרף"
-          }
-        }
-      }
-    },
-    "Location Denied" : {
-      "comment" : "Watch denied permission title",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort abgelehnt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Location Denied"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ubicación denegada"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localisation refusée"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מיקום נדחה"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localização negada"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Доступ к геолокации запрещён"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אָרט אָפּגעזאָגט"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אַפּ"
           }
         }
       }
     },
-    "Location Needed" : {
-      "comment" : "Watch permission view title",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort erforderlich"
+    "App Language": {
+      "comment": "Language selection setting",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App Language"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Location Needed"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שפת האפליקציה"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Se necesita ubicación"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App-Sprache"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localisation requise"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma de la app"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "נדרש מיקום"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue de l'app"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localização necessária"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma do app"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Требуется геолокация"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык приложения"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אָרט דאַרף"
-          }
-        }
-      }
-    },
-    "Location unavailable" : {
-      "comment" : "Message when location is not available",
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Standort nicht verfügbar"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Location unavailable"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ubicación no disponible"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localisation indisponible"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מיקום לא זמין"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Localização indisponível"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Местоположение недоступно"
-          }
-        },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אָרט נישט פֿאַראַנען"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אַפּ שפּראַך"
           }
         }
       }
     },
-    "No location" : {
-      "comment" : "Message when location data is unavailable",
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kein Standort"
+    "Automatic": {
+      "comment": "Automatic unit selection",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatic"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No location"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אוטומטי"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sin ubicación"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatisch"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pas de position"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automático"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אין מיקום"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatique"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sem localização"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automático"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нет местоположения"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Авто"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "קיין אָרט"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אויטאָמאַטיש"
           }
         }
       }
     },
-    "Open Settings" : {
-      "comment" : "Button to open iOS Settings app",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Einstellungen öffnen"
+    "Best": {
+      "comment": "Best accuracy mode",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Best"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open Settings"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הטוב ביותר"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abrir ajustes"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beste"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ouvrir les réglages"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mejor"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "פתח הגדרות"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meilleure"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abrir configurações"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Melhor"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Открыть настройки"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лучшая"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "עפֿענען סעטטינגס"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בעסטע"
           }
         }
       }
     },
-    "Open Settings and enable location\naccess to use the Western Wall compass" : {
-      "comment" : "Denied permission screen description",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Öffne die Einstellungen und aktiviere den\nStandortzugriff, um den Klagemauer-Kompass zu nutzen"
+    "Calibrating…": {
+      "comment": "Message shown while calibrating compass",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalibrierung…"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open Settings and enable location\naccess to use the Western Wall compass"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibrating…"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abre los ajustes y activa el acceso\na la ubicación para usar la brújula del Kotel"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibrando…"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ouvrez les réglages et activez l'accès\nà la localisation pour utiliser la boussole du Kotel"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibrage…"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "פתח הגדרות ואפשר גישה למיקום\nכדי להשתמש במצפן הכותל המערבי"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מכייל…"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abra as configurações e ative o acesso\nà localização para usar a bússola do Kotel"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibrando…"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Откройте настройки и включите доступ\nк местоположению для использования компаса Котеля"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Калибровка…"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "עפֿענען סעטטינגס און דערמעגלעכן אָרט צוטריט\nצו נוצן דעם כּותל קאָמפּאַס"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קאַליברירן…"
           }
         }
       }
     },
-    "Opens the compass pointing to the Western Wall in Jerusalem" : {
-      "comment" : "Description of the app intent for showing direction to the Western Wall.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Öffnet den Kompass, der zur Klagemauer in Jerusalem zeigt"
+    "Calibration": {
+      "comment": "Compass calibration setting label",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibration"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opens the compass pointing to the Western Wall in Jerusalem"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כיול"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abre la brújula que apunta al Muro Occidental en Jerusalén"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalibrierung"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ouvre la boussole pointant vers le Mur occidental à Jérusalem"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibración"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "פותח את המצפן המצביע לכותל המערבי בירושלים"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibrage"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abre a bússola apontando para o Muro Ocidental em Jerusalém"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calibração"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Открывает компас, указывающий на Западную стену в Иерусалиме"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Калибровка"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "עפֿנט דעם קאָמפּאַס וואָס ווייַזט צו דער מערבֿ־וואַנט אין ירושלים"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קאַליברירונג"
           }
         }
       }
     },
-    "Searching…" : {
-      "comment" : "Status label while searching for location",
-      "extractionState" : "stale",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Suche…"
+    "Change in Settings": {
+      "comment": "Subtitle for language setting that opens iOS Settings",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Einstellungen ändern"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Searching…"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change in Settings"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buscando…"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar en Ajustes"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recherche…"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier dans Réglages"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מחפש…"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שנה בהגדרות"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buscando…"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alterar nos Ajustes"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Поиск…"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить в Настройках"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "זוכן…"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ענדערן אין אײנשטעלונגען"
           }
         }
       }
     },
-    "Show Direction" : {
-      "comment" : "Shortcut name for showing direction to the Western Wall.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Richtung zeigen"
+    "Compass": {
+      "comment": "Settings section header for compass settings\nTab label for compass view",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compass"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Direction"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מצפן"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mostrar dirección"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kompass"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Afficher la direction"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brújula"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "הצג כיוון"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boussole"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mostrar direção"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bússola"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Показать направление"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Компас"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ווייַז ריכטונג"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קאָמפּאַס"
           }
         }
       }
     },
-    "Show Direction to Kotel" : {
-      "comment" : "Title of the app intent for showing direction to the Western Wall.",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Richtung zur Kotel zeigen"
+    "Coordinates": {
+      "comment": "Coordinates label",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coordinates"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Direction to Kotel"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קואורדינטות"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mostrar dirección al Kotel"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koordinaten"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Afficher la direction du Kotel"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coordenadas"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "הצג כיוון לכותל"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coordonnées"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mostrar direção ao Kotel"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coordenadas"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Показать направление на Котель"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Координаты"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ווייַז ריכטונג צו כּותל"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קאָאָרדינאַטן"
           }
         }
       }
     },
-    "To point toward the Kotel" : {
-      "comment" : "Watch permission view description",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Um zur Kotel zu zeigen"
+    "Display": {
+      "comment": "Settings section header for display settings",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Display"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "To point toward the Kotel"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תצוגה"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Para señalar hacia el Kotel"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anzeige"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pour pointer vers le Kotel"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pantalla"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "כדי להצביע לכיוון הכותל"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Affichage"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Para apontar para o Kotel"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exibição"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Чтобы указать на Котель"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отображение"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "צו ווייַזן צו דער כּותל"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אַנווייזונג"
           }
         }
       }
     },
-    "Western Wall" : {
-      "comment" : "Title for the Western Wall",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Klagemauer"
+    "Distance Unit": {
+      "comment": "Distance unit preference",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distance Unit"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Western Wall"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "יחידת מרחק"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Muro Occidental"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernungseinheit"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mur occidental"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidad de distancia"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "הכותל המערבי"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unité de distance"
           }
         },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Muro Ocidental"
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unidade de distância"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Западная стена"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Единица расстояния"
           }
         },
-        "yi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מערבֿ־וואַנט"
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דיסטאַנץ אײנהייט"
+          }
+        }
+      }
+    },
+    "Distance to Kotel": {
+      "comment": "Label showing distance to the Western Wall",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernung zur Kotel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distance to Kotel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distancia al Kotel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distance au Kotel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מרחק לכותל"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distância ao Kotel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расстояние до Котеля"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דיסטאַנץ צו כּותל"
+          }
+        }
+      }
+    },
+    "Enable Location": {
+      "comment": "Button to enable location services",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable Location"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer la localisation"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אפשר מיקום"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar localização"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить геолокацию"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דערמעגלעכן אָרט"
+          }
+        }
+      }
+    },
+    "Enable in Settings": {
+      "comment": "Watch denied permission description",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Einstellungen aktivieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable in Settings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar en ajustes"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer dans Réglages"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הפעל בהגדרות"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar nas configurações"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включите в настройках"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דערמעגלעכן אין סעטטינגס"
+          }
+        }
+      }
+    },
+    "English": {
+      "comment": "English language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "English"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אנגלית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Englisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inglés"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anglais"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inglês"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Английский"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ענגליש"
+          }
+        }
+      }
+    },
+    "Find the Western Wall": {
+      "comment": "Permission screen title",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finde die Klagemauer"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find the Western Wall"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encuentra el Muro Occidental"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trouvez le Mur occidental"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מצא את הכותל המערבי"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontre o Muro Ocidental"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Найдите Западную стену"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "געפֿינען די מערבֿ־וואַנט"
+          }
+        }
+      }
+    },
+    "French": {
+      "comment": "French language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "French"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "צרפתית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Französisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Francés"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Français"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Francês"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Французский"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פראַנצויזיש"
+          }
+        }
+      }
+    },
+    "German": {
+      "comment": "German language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "German"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גרמנית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deutsch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alemán"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allemand"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alemão"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Немецкий"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דײטש"
+          }
+        }
+      }
+    },
+    "Haptic Feedback": {
+      "comment": "Toggle haptic feedback",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptic Feedback"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "משוב מישושי"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haptisches Feedback"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Respuesta háptica"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour haptique"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Feedback tátil"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тактильный отклик"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האַפּטישע רעאַקציע"
+          }
+        }
+      }
+    },
+    "Heading: %lld°": {
+      "comment": "Current compass heading display",
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kurs: %lld°"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heading: %lld°"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rumbo: %lld°"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cap : %lld°"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כיוון: %lld°"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rumo: %lld°"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Курс: %lld°"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ריכטונג: %lld°"
+          }
+        }
+      }
+    },
+    "Hebrew": {
+      "comment": "Hebrew language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebrew"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עברית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebräisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebreo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hébreu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebraico"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Иврит"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העברעאיש"
+          }
+        }
+      }
+    },
+    "Imperial (mi)": {
+      "comment": "Imperial units",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imperial (mi)"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אימפריאלי (מייל)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imperial (mi)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imperial (mi)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impérial (mi)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imperial (mi)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Имперская (ми)"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אימפּעריאַל (מי)"
+          }
+        }
+      }
+    },
+    "Jerusalem, Israel": {
+      "comment": "Location of the Western Wall",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jerusalem, Israel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ירושלים, ישראל"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jerusalem, Israel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jerusalén, Israel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jérusalem, Israël"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jerusalém, Israel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Иерусалим, Израиль"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ירושלים, ישראל"
+          }
+        }
+      }
+    },
+    "Kotel": {
+      "comment": "Short name for the Western Wall",
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kotel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kotel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kotel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kotel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הכותל"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kotel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Котель"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כּותל"
+          }
+        }
+      }
+    },
+    "Language": {
+      "comment": "Settings section header for language settings",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שפה"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprache"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שפּראַך"
+          }
+        }
+      }
+    },
+    "Location": {
+      "comment": "Label for location setting",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מיקום"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Position"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localização"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Местоположение"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אָרט"
+          }
+        }
+      }
+    },
+    "Location Access Needed": {
+      "comment": "Denied permission screen title",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standortzugriff erforderlich"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location Access Needed"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesita acceso a ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accès à la localisation requis"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נדרשת גישה למיקום"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acesso à localização necessário"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Требуется доступ к геолокации"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אָרט צוטריט דאַרף"
+          }
+        }
+      }
+    },
+    "Location Accuracy": {
+      "comment": "Location accuracy setting label",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location Accuracy"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דיוק מיקום"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standortgenauigkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Precisión de ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Précision de la position"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Precisão da localização"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Точность местоположения"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אָרט גענויקייט"
+          }
+        }
+      }
+    },
+    "Location Denied": {
+      "comment": "Watch denied permission title",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort abgelehnt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location Denied"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación denegada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localisation refusée"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מיקום נדחה"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localização negada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступ к геолокации запрещён"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אָרט אָפּגעזאָגט"
+          }
+        }
+      }
+    },
+    "Location Needed": {
+      "comment": "Watch permission view title",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort erforderlich"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location Needed"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se necesita ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localisation requise"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נדרש מיקום"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localização necessária"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Требуется геолокация"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אָרט דאַרף"
+          }
+        }
+      }
+    },
+    "Location unavailable": {
+      "comment": "Message when location is not available",
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort nicht verfügbar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location unavailable"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación no disponible"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localisation indisponible"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מיקום לא זמין"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localização indisponível"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Местоположение недоступно"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אָרט נישט פֿאַראַנען"
+          }
+        }
+      }
+    },
+    "Metric (km)": {
+      "comment": "Metric units",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metric (km)"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מטרי (ק״מ)"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metrisch (km)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métrico (km)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métrique (km)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métrico (km)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Метрическая (км)"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מעטריש (קמ)"
+          }
+        }
+      }
+    },
+    "No location": {
+      "comment": "Message when location data is unavailable",
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Standort"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No location"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas de position"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין מיקום"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem localização"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет местоположения"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "קיין אָרט"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "comment": "Button to open iOS Settings app",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir ajustes"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir les réglages"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פתח הגדרות"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir configurações"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть настройки"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עפֿענען סעטטינגס"
+          }
+        }
+      }
+    },
+    "Open Settings and enable location\naccess to use the Western Wall compass": {
+      "comment": "Denied permission screen description",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne die Einstellungen und aktiviere den\nStandortzugriff, um den Klagemauer-Kompass zu nutzen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings and enable location\naccess to use the Western Wall compass"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre los ajustes y activa el acceso\na la ubicación para usar la brújula del Kotel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez les réglages et activez l'accès\nà la localisation pour utiliser la boussole du Kotel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פתח הגדרות ואפשר גישה למיקום\nכדי להשתמש במצפן הכותל המערבי"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abra as configurações e ative o acesso\nà localização para usar a bússola do Kotel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте настройки и включите доступ\nк местоположению для использования компаса Котеля"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עפֿענען סעטטינגס און דערמעגלעכן אָרט צוטריט\nצו נוצן דעם כּותל קאָמפּאַס"
+          }
+        }
+      }
+    },
+    "Opens the compass pointing to the Western Wall in Jerusalem": {
+      "comment": "Description of the app intent for showing direction to the Western Wall.",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffnet den Kompass, der zur Klagemauer in Jerusalem zeigt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens the compass pointing to the Western Wall in Jerusalem"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre la brújula que apunta al Muro Occidental en Jerusalén"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre la boussole pointant vers le Mur occidental à Jérusalem"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פותח את המצפן המצביע לכותל המערבי בירושלים"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre a bússola apontando para o Muro Ocidental em Jerusalém"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открывает компас, указывающий на Западную стену в Иерусалиме"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עפֿנט דעם קאָמפּאַס וואָס ווייַזט צו דער מערבֿ־וואַנט אין ירושלים"
+          }
+        }
+      }
+    },
+    "Portuguese": {
+      "comment": "Portuguese language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portuguese"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פורטוגזית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portugiesisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portugués"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portugais"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Português"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Португальский"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פּאָרטוגעזיש"
+          }
+        }
+      }
+    },
+    "Restart the app to apply language changes": {
+      "comment": "Language restart notice",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restart the app to apply language changes"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הפעל מחדש את האפליקציה להחלת שינויי השפה"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starten Sie die App neu, um die Sprachänderungen zu übernehmen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicia la app para aplicar los cambios de idioma"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redémarrez l'app pour appliquer les changements de langue"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicie o app para aplicar as alterações de idioma"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перезапустите приложение для применения языковых изменений"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "סטאַרט די אַפּ נײַ צו אָנווענדן שפּראַך ענדערונגען"
+          }
+        }
+      }
+    },
+    "Russian": {
+      "comment": "Russian language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Russian"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "רוסית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Russisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ruso"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Russe"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Russo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Русский"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "רוסיש"
+          }
+        }
+      }
+    },
+    "Searching…": {
+      "comment": "Status label while searching for location",
+      "extractionState": "stale",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suche…"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche…"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחפש…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск…"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "זוכן…"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "comment": "Settings screen title\nTab label for settings view",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הגדרות"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אײנשטעלונגען"
+          }
+        }
+      }
+    },
+    "Show Coordinates": {
+      "comment": "Toggle to show current coordinates",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Coordinates"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הצג קואורדינטות"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koordinaten anzeigen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar coordenadas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les coordonnées"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar coordenadas"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать координаты"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ווײַזן קאָאָרדינאַטן"
+          }
+        }
+      }
+    },
+    "Show Direction": {
+      "comment": "Shortcut name for showing direction to the Western Wall.",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Richtung zeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Direction"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar dirección"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher la direction"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הצג כיוון"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar direção"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать направление"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ווייַז ריכטונג"
+          }
+        }
+      }
+    },
+    "Show Direction to Kotel": {
+      "comment": "Title of the app intent for showing direction to the Western Wall.",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Richtung zur Kotel zeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Direction to Kotel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar dirección al Kotel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher la direction du Kotel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הצג כיוון לכותל"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar direção ao Kotel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать направление на Котель"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ווייַז ריכטונג צו כּותל"
+          }
+        }
+      }
+    },
+    "Show Distance": {
+      "comment": "Toggle to show distance to Kotel",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Distance"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הצג מרחק"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernung anzeigen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar distancia"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher la distance"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar distância"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать расстояние"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ווײַזן דיסטאַנץ"
+          }
+        }
+      }
+    },
+    "Spanish": {
+      "comment": "Spanish language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spanish"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ספרדית"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spanisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Español"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espagnol"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espanhol"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Испанский"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שפּאַניש"
+          }
+        }
+      }
+    },
+    "Target Location": {
+      "comment": "Label for target location",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Target Location"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מיקום יעד"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zielort"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación objetivo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lieu cible"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Local de destino"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Целевое местоположение"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ציל אָרט"
+          }
+        }
+      }
+    },
+    "The Western Wall": {
+      "comment": "Label for the Western Wall location",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Western Wall"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הכותל המערבי"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Klagemauer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Muro de los Lamentos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le Mur des Lamentations"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Muro das Lamentações"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стена Плача"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "דער כותל המערבי"
+          }
+        }
+      }
+    },
+    "To point toward the Kotel": {
+      "comment": "Watch permission view description",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Um zur Kotel zu zeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To point toward the Kotel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para señalar hacia el Kotel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour pointer vers le Kotel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כדי להצביע לכיוון הכותל"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para apontar para o Kotel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чтобы указать на Котель"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "צו ווייַזן צו דער כּותל"
+          }
+        }
+      }
+    },
+    "Use True North": {
+      "comment": "Toggle between true and magnetic north",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use True North"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "השתמש בצפון אמיתי"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geografischen Norden verwenden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar norte verdadero"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utiliser le nord géographique"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar norte verdadeiro"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использовать истинный север"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ניצן אמתן צפון"
+          }
+        }
+      }
+    },
+    "Uses geographic north instead of magnetic north": {
+      "comment": "Explanation of true north setting",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwendet den geografischen Norden anstelle des magnetischen Nordens"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uses geographic north instead of magnetic north"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa el norte geográfico en lugar del norte magnético"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilise le nord géographique au lieu du nord magnétique"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "משתמש בצפון גאוגרפי במקום צפון מגנטי"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa o norte geográfico em vez do norte magnético"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использует географический север вместо магнитного"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ניצט געאגראפישן צפון אנשטאט מאגנעטישן צפון"
+          }
+        }
+      }
+    },
+    "Version": {
+      "comment": "App version label",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גרסה"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versão"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ווערסיע"
+          }
+        }
+      }
+    },
+    "Vibrates as you point toward the Kotel": {
+      "comment": "Explanation of haptic feedback setting",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibriert, wenn Sie in Richtung Kotel zeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibrates as you point toward the Kotel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibra cuando apuntas hacia el Kotel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibre lorsque vous pointez vers le Kotel"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "רוטט כשאתה מצביע לכיוון הכותל"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibra quando você aponta para o Kotel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вибрирует, когда вы указываете на Котель"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "וויברירט ווען איר ווייזט צום כותל"
+          }
+        }
+      }
+    },
+    "Western Wall": {
+      "comment": "Title for the Western Wall",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klagemauer"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Western Wall"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muro Occidental"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mur occidental"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הכותל המערבי"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muro Ocidental"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Западная стена"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מערבֿ־וואַנט"
+          }
+        }
+      }
+    },
+    "Yiddish": {
+      "comment": "Yiddish language option",
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yiddish"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "יידיש"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jiddisch"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yidis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yiddish"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iídiche"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Идиш"
+          }
+        },
+        "yi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ייִדיש"
           }
         }
       }
     }
   },
-  "version" : "1.1"
+  "version": "1.1"
 }
