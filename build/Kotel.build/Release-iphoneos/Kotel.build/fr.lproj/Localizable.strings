@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>À propos</string>
+	<key>Acquiring location…</key>
+	<string>Acquisition de la position…</string>
+	<key>Acquiring…</key>
+	<string>Acquisition…</string>
+	<key>Active</key>
+	<string>Actif</string>
+	<key>Allow Location</key>
+	<string>Autoriser la localisation</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Autorisez l'accès à la localisation pour
+vous orienter vers le Kotel à Jérusalem</string>
+	<key>App</key>
+	<string>App</string>
+	<key>App Language</key>
+	<string>Langue de l'app</string>
+	<key>Automatic</key>
+	<string>Automatique</string>
+	<key>Best</key>
+	<string>Meilleure</string>
+	<key>Calibrating…</key>
+	<string>Calibrage…</string>
+	<key>Calibration</key>
+	<string>Calibrage</string>
+	<key>Change in Settings</key>
+	<string>Modifier dans Réglages</string>
+	<key>Compass</key>
+	<string>Boussole</string>
+	<key>Coordinates</key>
+	<string>Coordonnées</string>
+	<key>Display</key>
+	<string>Affichage</string>
+	<key>Distance Unit</key>
+	<string>Unité de distance</string>
+	<key>Distance to Kotel</key>
+	<string>Distance au Kotel</string>
+	<key>Enable Location</key>
+	<string>Activer la localisation</string>
+	<key>Enable in Settings</key>
+	<string>Activer dans Réglages</string>
+	<key>English</key>
+	<string>Anglais</string>
+	<key>Find the Western Wall</key>
+	<string>Trouvez le Mur occidental</string>
+	<key>French</key>
+	<string>Français</string>
+	<key>German</key>
+	<string>Allemand</string>
+	<key>Haptic Feedback</key>
+	<string>Retour haptique</string>
+	<key>Heading: %lld°</key>
+	<string>Cap : %lld°</string>
+	<key>Hebrew</key>
+	<string>Hébreu</string>
+	<key>Imperial (mi)</key>
+	<string>Impérial (mi)</string>
+	<key>Jerusalem, Israel</key>
+	<string>Jérusalem, Israël</string>
+	<key>Kotel</key>
+	<string>Kotel</string>
+	<key>Language</key>
+	<string>Langue</string>
+	<key>Location</key>
+	<string>Position</string>
+	<key>Location Access Needed</key>
+	<string>Accès à la localisation requis</string>
+	<key>Location Accuracy</key>
+	<string>Précision de la position</string>
+	<key>Location Denied</key>
+	<string>Localisation refusée</string>
+	<key>Location Needed</key>
+	<string>Localisation requise</string>
+	<key>Location unavailable</key>
+	<string>Localisation indisponible</string>
+	<key>Metric (km)</key>
+	<string>Métrique (km)</string>
+	<key>No location</key>
+	<string>Pas de position</string>
+	<key>Open Settings</key>
+	<string>Ouvrir les réglages</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Ouvrez les réglages et activez l'accès
+à la localisation pour utiliser la boussole du Kotel</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Ouvre la boussole pointant vers le Mur occidental à Jérusalem</string>
+	<key>Portuguese</key>
+	<string>Portugais</string>
+	<key>Restart the app to apply language changes</key>
+	<string>Redémarrez l'app pour appliquer les changements de langue</string>
+	<key>Russian</key>
+	<string>Russe</string>
+	<key>Searching…</key>
+	<string>Recherche…</string>
+	<key>Settings</key>
+	<string>Réglages</string>
+	<key>Show Coordinates</key>
+	<string>Afficher les coordonnées</string>
+	<key>Show Direction</key>
+	<string>Afficher la direction</string>
+	<key>Show Direction to Kotel</key>
+	<string>Afficher la direction du Kotel</string>
+	<key>Show Distance</key>
+	<string>Afficher la distance</string>
+	<key>Spanish</key>
+	<string>Espagnol</string>
+	<key>Target Location</key>
+	<string>Lieu cible</string>
+	<key>The Western Wall</key>
+	<string>Le Mur des Lamentations</string>
+	<key>To point toward the Kotel</key>
+	<string>Pour pointer vers le Kotel</string>
+	<key>Use True North</key>
+	<string>Utiliser le nord géographique</string>
+	<key>Uses geographic north instead of magnetic north</key>
+	<string>Utilise le nord géographique au lieu du nord magnétique</string>
+	<key>Version</key>
+	<string>Version</string>
+	<key>Vibrates as you point toward the Kotel</key>
+	<string>Vibre lorsque vous pointez vers le Kotel</string>
+	<key>Western Wall</key>
+	<string>Mur occidental</string>
+	<key>Yiddish</key>
+	<string>Yiddish</string>
+</dict>
+</plist>

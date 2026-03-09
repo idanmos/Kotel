@@ -1,0 +1,24 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/DerivedSources/GeneratedStringSymbols_InfoPlist.swift",
+  "tables": {
+    "InfoPlist": [
+      {
+        "comment": "",
+        "key": "CFBundleDisplayName",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "NSLocationWhenInUseUsageDescription",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 38
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>כּותל</string>
+	<key>CFBundleName</key>
+	<string>כּותל</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>דערלויב צוטריט צום אָרט כדי דער קאָמפּאַס קען ווייַטער ווייַזן צו דער כּותל אין הינטערגרונט</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>דערלויב צוטריט צום אָרט כדי מיר קענען ווייַזן צו די כּותל אין ירושלים</string>
+</dict>
+</plist>

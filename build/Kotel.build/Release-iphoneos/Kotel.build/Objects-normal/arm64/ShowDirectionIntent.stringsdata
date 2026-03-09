@@ -1,0 +1,32 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/AppIntents/ShowDirectionIntent.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Show Direction to Kotel",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Opens the compass pointing to the Western Wall in Jerusalem",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Direction",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 32
+        }
+      }
+    ]
+  },
+  "version": 1
+}

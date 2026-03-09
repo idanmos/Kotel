@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acquiring location…</key>
+	<string>Obteniendo ubicación…</string>
+	<key>Acquiring…</key>
+	<string>Obteniendo…</string>
+	<key>Active</key>
+	<string>Activo</string>
+	<key>Allow Location</key>
+	<string>Permitir ubicación</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Permite el acceso a la ubicación para
+señalarte hacia el Kotel en Jerusalén</string>
+	<key>Bearing</key>
+	<string>Rumbo</string>
+	<key>Calibrating…</key>
+	<string>Calibrando…</string>
+	<key>Distance</key>
+	<string>Distancia</string>
+	<key>Distance to Kotel</key>
+	<string>Distancia al Kotel</string>
+	<key>Enable Location</key>
+	<string>Activar ubicación</string>
+	<key>Enable in Settings</key>
+	<string>Activar en ajustes</string>
+	<key>Find the Western Wall</key>
+	<string>Encuentra el Muro Occidental</string>
+	<key>Heading: %lld°</key>
+	<string>Rumbo: %lld°</string>
+	<key>Kotel</key>
+	<string>Kotel</string>
+	<key>Kotel %@</key>
+	<string>Kotel %@</string>
+	<key>Kotel Compass</key>
+	<string>Brújula del Kotel</string>
+	<key>Location Access Needed</key>
+	<string>Se necesita acceso a ubicación</string>
+	<key>Location Denied</key>
+	<string>Ubicación denegada</string>
+	<key>Location Needed</key>
+	<string>Se necesita ubicación</string>
+	<key>Location unavailable</key>
+	<string>Ubicación no disponible</string>
+	<key>No location</key>
+	<string>Sin ubicación</string>
+	<key>Open Settings</key>
+	<string>Abrir ajustes</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Abre los ajustes y activa el acceso
+a la ubicación para usar la brújula del Kotel</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Abre la brújula que apunta al Muro Occidental en Jerusalén</string>
+	<key>Searching…</key>
+	<string>Buscando…</string>
+	<key>Show Direction</key>
+	<string>Mostrar dirección</string>
+	<key>Show Direction to Kotel</key>
+	<string>Mostrar dirección al Kotel</string>
+	<key>Shows direction and distance to the Western Wall.</key>
+	<string>Muestra la dirección y distancia al Muro Occidental.</string>
+	<key>To point toward the Kotel</key>
+	<string>Para señalar hacia el Kotel</string>
+	<key>Western Wall</key>
+	<string>Muro Occidental</string>
+</dict>
+</plist>

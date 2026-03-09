@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>וועגן</string>
+	<key>Acquiring location…</key>
+	<string>געפֿינען אָרט…</string>
+	<key>Acquiring…</key>
+	<string>געפֿינען…</string>
+	<key>Active</key>
+	<string>אַקטיוו</string>
+	<key>Allow Location</key>
+	<string>דערלויב אָרט</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>דערלויב צוטריט צום אָרט כדי
+מיר קענען ווייַזן צו די כּותל אין ירושלים</string>
+	<key>App</key>
+	<string>אַפּ</string>
+	<key>App Language</key>
+	<string>אַפּ שפּראַך</string>
+	<key>Automatic</key>
+	<string>אויטאָמאַטיש</string>
+	<key>Best</key>
+	<string>בעסטע</string>
+	<key>Calibrating…</key>
+	<string>קאַליברירן…</string>
+	<key>Calibration</key>
+	<string>קאַליברירונג</string>
+	<key>Change in Settings</key>
+	<string>ענדערן אין אײנשטעלונגען</string>
+	<key>Compass</key>
+	<string>קאָמפּאַס</string>
+	<key>Coordinates</key>
+	<string>קאָאָרדינאַטן</string>
+	<key>Display</key>
+	<string>אַנווייזונג</string>
+	<key>Distance Unit</key>
+	<string>דיסטאַנץ אײנהייט</string>
+	<key>Distance to Kotel</key>
+	<string>דיסטאַנץ צו כּותל</string>
+	<key>Enable Location</key>
+	<string>דערמעגלעכן אָרט</string>
+	<key>Enable in Settings</key>
+	<string>דערמעגלעכן אין סעטטינגס</string>
+	<key>English</key>
+	<string>ענגליש</string>
+	<key>Find the Western Wall</key>
+	<string>געפֿינען די מערבֿ־וואַנט</string>
+	<key>French</key>
+	<string>פראַנצויזיש</string>
+	<key>German</key>
+	<string>דײטש</string>
+	<key>Haptic Feedback</key>
+	<string>האַפּטישע רעאַקציע</string>
+	<key>Heading: %lld°</key>
+	<string>ריכטונג: %lld°</string>
+	<key>Hebrew</key>
+	<string>העברעאיש</string>
+	<key>Imperial (mi)</key>
+	<string>אימפּעריאַל (מי)</string>
+	<key>Jerusalem, Israel</key>
+	<string>ירושלים, ישראל</string>
+	<key>Kotel</key>
+	<string>כּותל</string>
+	<key>Language</key>
+	<string>שפּראַך</string>
+	<key>Location</key>
+	<string>אָרט</string>
+	<key>Location Access Needed</key>
+	<string>אָרט צוטריט דאַרף</string>
+	<key>Location Accuracy</key>
+	<string>אָרט גענויקייט</string>
+	<key>Location Denied</key>
+	<string>אָרט אָפּגעזאָגט</string>
+	<key>Location Needed</key>
+	<string>אָרט דאַרף</string>
+	<key>Location unavailable</key>
+	<string>אָרט נישט פֿאַראַנען</string>
+	<key>Metric (km)</key>
+	<string>מעטריש (קמ)</string>
+	<key>No location</key>
+	<string>קיין אָרט</string>
+	<key>Open Settings</key>
+	<string>עפֿענען סעטטינגס</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>עפֿענען סעטטינגס און דערמעגלעכן אָרט צוטריט
+צו נוצן דעם כּותל קאָמפּאַס</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>עפֿנט דעם קאָמפּאַס וואָס ווייַזט צו דער מערבֿ־וואַנט אין ירושלים</string>
+	<key>Portuguese</key>
+	<string>פּאָרטוגעזיש</string>
+	<key>Restart the app to apply language changes</key>
+	<string>סטאַרט די אַפּ נײַ צו אָנווענדן שפּראַך ענדערונגען</string>
+	<key>Russian</key>
+	<string>רוסיש</string>
+	<key>Searching…</key>
+	<string>זוכן…</string>
+	<key>Settings</key>
+	<string>אײנשטעלונגען</string>
+	<key>Show Coordinates</key>
+	<string>ווײַזן קאָאָרדינאַטן</string>
+	<key>Show Direction</key>
+	<string>ווייַז ריכטונג</string>
+	<key>Show Direction to Kotel</key>
+	<string>ווייַז ריכטונג צו כּותל</string>
+	<key>Show Distance</key>
+	<string>ווײַזן דיסטאַנץ</string>
+	<key>Spanish</key>
+	<string>שפּאַניש</string>
+	<key>Target Location</key>
+	<string>ציל אָרט</string>
+	<key>The Western Wall</key>
+	<string>דער כותל המערבי</string>
+	<key>To point toward the Kotel</key>
+	<string>צו ווייַזן צו דער כּותל</string>
+	<key>Use True North</key>
+	<string>ניצן אמתן צפון</string>
+	<key>Uses geographic north instead of magnetic north</key>
+	<string>ניצט געאגראפישן צפון אנשטאט מאגנעטישן צפון</string>
+	<key>Version</key>
+	<string>ווערסיע</string>
+	<key>Vibrates as you point toward the Kotel</key>
+	<string>וויברירט ווען איר ווייזט צום כותל</string>
+	<key>Western Wall</key>
+	<string>מערבֿ־וואַנט</string>
+	<key>Yiddish</key>
+	<string>ייִדיש</string>
+</dict>
+</plist>

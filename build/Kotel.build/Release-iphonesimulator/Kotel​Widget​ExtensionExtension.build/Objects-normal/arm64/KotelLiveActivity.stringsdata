@@ -1,0 +1,88 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/KotelLiveActivity.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Acquiring location…",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Heading: %lld°",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "Western Wall",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "No location",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kotel",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "הכותל המערבי",
+        "location": {
+          "startingColumn": 14,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld°",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calibrating…",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 261
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 265
+        }
+      },
+      {
+        "comment": "",
+        "key": "Searching…",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 269
+        }
+      }
+    ]
+  },
+  "version": 1
+}

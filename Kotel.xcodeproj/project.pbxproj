@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A38BA262F5EAE3400C953DD /* CompassRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38BA252F5EAE3400C953DD /* CompassRing.swift */; };
+		8A38BA282F5EAE3400C953DD /* DirectionNeedle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38BA272F5EAE3400C953DD /* DirectionNeedle.swift */; };
 		8A7846D22F4B2EC900EE4A02 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8A7846D42F4B306100EE4A02 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
 		8AB3F7302F5411B700DBC455 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3F72E2F5411B700DBC455 /* AppSettings.swift */; };
@@ -16,7 +18,7 @@
 		8AB3F7B42F5438AC00DBC455 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3F72E2F5411B700DBC455 /* AppSettings.swift */; };
 		8AB3F7B52F5438AC00DBC455 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */; };
 		8AB3F7B62F5438AC00DBC455 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */; };
-		8AB3F7B72F5438AC00DBC455 /* Kotel Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8AB3F7972F5438AB00DBC455 /* Kotel Watch Watch App.app */; platformFilters = (ios, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8AB3F7B72F5438AC00DBC455 /* Kotel Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8AB3F7972F5438AB00DBC455 /* Kotel Watch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8A1111112F4B2EC900EE4A01 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		8A1111122F4B2EC900EE4A02 /* CompassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewModel.swift; sourceTree = "<group>"; };
 		8A1111132F4B2EC900EE4A03 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		8A38BA252F5EAE3400C953DD /* CompassRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassRing.swift; sourceTree = "<group>"; };
+		8A38BA272F5EAE3400C953DD /* DirectionNeedle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionNeedle.swift; sourceTree = "<group>"; };
 		8A7846B42F4B2B5F00EE4A02 /* Kotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7846D12F4B2EC900EE4A02 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		8A7846D32F4B306100EE4A02 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				8A1111132F4B2EC900EE4A03 /* CompassView.swift */,
+				8A38BA252F5EAE3400C953DD /* CompassRing.swift */,
+				8A38BA272F5EAE3400C953DD /* DirectionNeedle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 				8AB3F7B42F5438AC00DBC455 /* AppSettings.swift in Sources */,
 				8AB3F7B12F5438AC00DBC455 /* LocationService.swift in Sources */,
 				8AB3F7B22F5438AC00DBC455 /* CompassViewModel.swift in Sources */,
+				8A38BA282F5EAE3400C953DD /* DirectionNeedle.swift in Sources */,
 				8AB3F7B32F5438AC00DBC455 /* CompassView.swift in Sources */,
+				8A38BA262F5EAE3400C953DD /* CompassRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +306,7 @@
 /* Begin PBXTargetDependency section */
 		8AB3F7A02F5438AC00DBC455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilters = (ios, );
+			platformFilter = ios;
 			target = 8AB3F7962F5438AB00DBC455 /* Kotel Watch Watch App */;
 			targetProxy = 8AB3F79F2F5438AC00DBC455 /* PBXContainerItemProxy */;
 		};

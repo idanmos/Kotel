@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>אודות</string>
+	<key>Acquiring location…</key>
+	<string>מאתר מיקום…</string>
+	<key>Acquiring…</key>
+	<string>מאתר…</string>
+	<key>Active</key>
+	<string>פעיל</string>
+	<key>Allow Location</key>
+	<string>אפשר מיקום</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>אפשר גישה למיקום כדי
+שנוכל להצביע לכיוון הכותל בירושלים</string>
+	<key>App</key>
+	<string>אפליקציה</string>
+	<key>App Language</key>
+	<string>שפת האפליקציה</string>
+	<key>Automatic</key>
+	<string>אוטומטי</string>
+	<key>Best</key>
+	<string>הטוב ביותר</string>
+	<key>Calibrating…</key>
+	<string>מכייל…</string>
+	<key>Calibration</key>
+	<string>כיול</string>
+	<key>Change in Settings</key>
+	<string>שנה בהגדרות</string>
+	<key>Compass</key>
+	<string>מצפן</string>
+	<key>Coordinates</key>
+	<string>קואורדינטות</string>
+	<key>Display</key>
+	<string>תצוגה</string>
+	<key>Distance Unit</key>
+	<string>יחידת מרחק</string>
+	<key>Distance to Kotel</key>
+	<string>מרחק לכותל</string>
+	<key>Enable Location</key>
+	<string>אפשר מיקום</string>
+	<key>Enable in Settings</key>
+	<string>הפעל בהגדרות</string>
+	<key>English</key>
+	<string>אנגלית</string>
+	<key>Find the Western Wall</key>
+	<string>מצא את הכותל המערבי</string>
+	<key>French</key>
+	<string>צרפתית</string>
+	<key>German</key>
+	<string>גרמנית</string>
+	<key>Haptic Feedback</key>
+	<string>משוב מישושי</string>
+	<key>Heading: %lld°</key>
+	<string>כיוון: %lld°</string>
+	<key>Hebrew</key>
+	<string>עברית</string>
+	<key>Imperial (mi)</key>
+	<string>אימפריאלי (מייל)</string>
+	<key>Jerusalem, Israel</key>
+	<string>ירושלים, ישראל</string>
+	<key>Kotel</key>
+	<string>הכותל</string>
+	<key>Language</key>
+	<string>שפה</string>
+	<key>Location</key>
+	<string>מיקום</string>
+	<key>Location Access Needed</key>
+	<string>נדרשת גישה למיקום</string>
+	<key>Location Accuracy</key>
+	<string>דיוק מיקום</string>
+	<key>Location Denied</key>
+	<string>מיקום נדחה</string>
+	<key>Location Needed</key>
+	<string>נדרש מיקום</string>
+	<key>Location unavailable</key>
+	<string>מיקום לא זמין</string>
+	<key>Metric (km)</key>
+	<string>מטרי (ק״מ)</string>
+	<key>No location</key>
+	<string>אין מיקום</string>
+	<key>Open Settings</key>
+	<string>פתח הגדרות</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>פתח הגדרות ואפשר גישה למיקום
+כדי להשתמש במצפן הכותל המערבי</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>פותח את המצפן המצביע לכותל המערבי בירושלים</string>
+	<key>Portuguese</key>
+	<string>פורטוגזית</string>
+	<key>Restart the app to apply language changes</key>
+	<string>הפעל מחדש את האפליקציה להחלת שינויי השפה</string>
+	<key>Russian</key>
+	<string>רוסית</string>
+	<key>Searching…</key>
+	<string>מחפש…</string>
+	<key>Settings</key>
+	<string>הגדרות</string>
+	<key>Show Coordinates</key>
+	<string>הצג קואורדינטות</string>
+	<key>Show Direction</key>
+	<string>הצג כיוון</string>
+	<key>Show Direction to Kotel</key>
+	<string>הצג כיוון לכותל</string>
+	<key>Show Distance</key>
+	<string>הצג מרחק</string>
+	<key>Spanish</key>
+	<string>ספרדית</string>
+	<key>Target Location</key>
+	<string>מיקום יעד</string>
+	<key>The Western Wall</key>
+	<string>הכותל המערבי</string>
+	<key>To point toward the Kotel</key>
+	<string>כדי להצביע לכיוון הכותל</string>
+	<key>Use True North</key>
+	<string>השתמש בצפון אמיתי</string>
+	<key>Uses geographic north instead of magnetic north</key>
+	<string>משתמש בצפון גאוגרפי במקום צפון מגנטי</string>
+	<key>Version</key>
+	<string>גרסה</string>
+	<key>Vibrates as you point toward the Kotel</key>
+	<string>רוטט כשאתה מצביע לכיוון הכותל</string>
+	<key>Western Wall</key>
+	<string>הכותל המערבי</string>
+	<key>Yiddish</key>
+	<string>יידיש</string>
+</dict>
+</plist>

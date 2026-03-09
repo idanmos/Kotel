@@ -1,0 +1,208 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "Settings screen title",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "Settings section header for display settings",
+        "key": "Display",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "Settings section header for compass settings",
+        "key": "Compass",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "Settings section header for language settings",
+        "key": "Language",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "Settings section header for about information",
+        "key": "About",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "Settings section header for app information",
+        "key": "App",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "Toggle to show distance to Kotel",
+        "key": "Show Distance",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "Toggle to show current coordinates",
+        "key": "Show Coordinates",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "Distance unit preference",
+        "key": "Distance Unit",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "Automatic unit selection",
+        "key": "Automatic",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "Metric units",
+        "key": "Metric (km)",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "Imperial units",
+        "key": "Imperial (mi)",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "Toggle between true and magnetic north",
+        "key": "Use True North",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "Explanation of true north setting",
+        "key": "Uses geographic north instead of magnetic north",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "Toggle haptic feedback",
+        "key": "Haptic Feedback",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "Explanation of haptic feedback setting",
+        "key": "Vibrates as you point toward the Kotel",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "Language selection setting",
+        "key": "App Language",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "Subtitle for language setting that opens iOS Settings",
+        "key": "Change in Settings",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "Label for the Western Wall location",
+        "key": "The Western Wall",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "Label for target location",
+        "key": "Target Location",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "Location of the Western Wall",
+        "key": "Jerusalem, Israel",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "Coordinates label",
+        "key": "Coordinates",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "App version label",
+        "key": "Version",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 312
+        }
+      }
+    ]
+  },
+  "version": 1
+}

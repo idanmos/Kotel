@@ -1,0 +1,76 @@
+{
+  "" : {
+    "const-values" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary.swiftconstvalues",
+    "dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary.d",
+    "diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary.dia",
+    "emit-module-dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary-emit-module.dia",
+    "pch" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel Watch Watch App-primary.swiftdeps"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/AppSettings.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/AppSettings.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/AppSettings.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/AppSettings.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/ComplicationController.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/ComplicationController.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/ComplicationController.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/ComplicationController.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/Kotel_WatchApp.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel_WatchApp.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel_WatchApp.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/Kotel_WatchApp.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/WatchCompassView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchCompassView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchCompassView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchCompassView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/WatchContentView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchContentView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchContentView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchContentView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/WatchDetailView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchDetailView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchDetailView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchDetailView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/WatchSettingsView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchSettingsView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchSettingsView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/WatchSettingsView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Services/LocationService.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/LocationService.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/LocationService.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/LocationService.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/ViewModels/CompassViewModel.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/CompassViewModel.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/CompassViewModel.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/CompassViewModel.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Views/CompassView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/CompassView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/CompassView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/CompassView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/DerivedSources/GeneratedStringSymbols_InfoPlist.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedStringSymbols_InfoPlist.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedStringSymbols_InfoPlist.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedStringSymbols_InfoPlist.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/DerivedSources/GeneratedStringSymbols_Localizable.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedStringSymbols_Localizable.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedStringSymbols_Localizable.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64_32/GeneratedStringSymbols_Localizable.o"
+  }
+}

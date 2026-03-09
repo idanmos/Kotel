@@ -1,0 +1,12 @@
+{
+  "/Users/idanmoshe/Personal/Projects/Kotel/AppSettings.swift" : {
+    "abi-baseline-json" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel_Watch_Watch_App.abi.json",
+    "const-values" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel Watch Watch App-primary.swiftconstvalues",
+    "dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel Watch Watch App-primary.d",
+    "diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel Watch Watch App-primary.dia",
+    "objc-header" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel_Watch_Watch_App-Swift.h",
+    "swiftdoc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel_Watch_Watch_App.swiftdoc",
+    "swiftmodule" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel_Watch_Watch_App.swiftmodule",
+    "swiftsourceinfo" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-watchos/Kotel Watch Watch App.build/Objects-normal/arm64/Kotel_Watch_Watch_App.swiftsourceinfo"
+  }
+}

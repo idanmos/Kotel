@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>About</string>
+	<key>Acquiring location…</key>
+	<string>Acquiring location…</string>
+	<key>Acquiring…</key>
+	<string>Acquiring…</string>
+	<key>Active</key>
+	<string>Active</string>
+	<key>Allow Location</key>
+	<string>Allow Location</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Allow location access so we can
+point you toward the Kotel in Jerusalem</string>
+	<key>App</key>
+	<string>App</string>
+	<key>App Language</key>
+	<string>App Language</string>
+	<key>Automatic</key>
+	<string>Automatic</string>
+	<key>Best</key>
+	<string>Best</string>
+	<key>Calibrating…</key>
+	<string>Calibrating…</string>
+	<key>Calibration</key>
+	<string>Calibration</string>
+	<key>Change in Settings</key>
+	<string>Change in Settings</string>
+	<key>Compass</key>
+	<string>Compass</string>
+	<key>Coordinates</key>
+	<string>Coordinates</string>
+	<key>Display</key>
+	<string>Display</string>
+	<key>Distance Unit</key>
+	<string>Distance Unit</string>
+	<key>Distance to Kotel</key>
+	<string>Distance to Kotel</string>
+	<key>Enable Location</key>
+	<string>Enable Location</string>
+	<key>Enable in Settings</key>
+	<string>Enable in Settings</string>
+	<key>English</key>
+	<string>English</string>
+	<key>Find the Western Wall</key>
+	<string>Find the Western Wall</string>
+	<key>French</key>
+	<string>French</string>
+	<key>German</key>
+	<string>German</string>
+	<key>Haptic Feedback</key>
+	<string>Haptic Feedback</string>
+	<key>Heading: %lld°</key>
+	<string>Heading: %lld°</string>
+	<key>Hebrew</key>
+	<string>Hebrew</string>
+	<key>Imperial (mi)</key>
+	<string>Imperial (mi)</string>
+	<key>Jerusalem, Israel</key>
+	<string>Jerusalem, Israel</string>
+	<key>Kotel</key>
+	<string>Kotel</string>
+	<key>Language</key>
+	<string>Language</string>
+	<key>Location</key>
+	<string>Location</string>
+	<key>Location Access Needed</key>
+	<string>Location Access Needed</string>
+	<key>Location Accuracy</key>
+	<string>Location Accuracy</string>
+	<key>Location Denied</key>
+	<string>Location Denied</string>
+	<key>Location Needed</key>
+	<string>Location Needed</string>
+	<key>Location unavailable</key>
+	<string>Location unavailable</string>
+	<key>Metric (km)</key>
+	<string>Metric (km)</string>
+	<key>No location</key>
+	<string>No location</string>
+	<key>Open Settings</key>
+	<string>Open Settings</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Open Settings and enable location
+access to use the Western Wall compass</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Opens the compass pointing to the Western Wall in Jerusalem</string>
+	<key>Portuguese</key>
+	<string>Portuguese</string>
+	<key>Restart the app to apply language changes</key>
+	<string>Restart the app to apply language changes</string>
+	<key>Russian</key>
+	<string>Russian</string>
+	<key>Searching…</key>
+	<string>Searching…</string>
+	<key>Settings</key>
+	<string>Settings</string>
+	<key>Show Coordinates</key>
+	<string>Show Coordinates</string>
+	<key>Show Direction</key>
+	<string>Show Direction</string>
+	<key>Show Direction to Kotel</key>
+	<string>Show Direction to Kotel</string>
+	<key>Show Distance</key>
+	<string>Show Distance</string>
+	<key>Spanish</key>
+	<string>Spanish</string>
+	<key>Target Location</key>
+	<string>Target Location</string>
+	<key>The Western Wall</key>
+	<string>The Western Wall</string>
+	<key>To point toward the Kotel</key>
+	<string>To point toward the Kotel</string>
+	<key>Use True North</key>
+	<string>Use True North</string>
+	<key>Uses geographic north instead of magnetic north</key>
+	<string>Uses geographic north instead of magnetic north</string>
+	<key>Version</key>
+	<string>Version</string>
+	<key>Vibrates as you point toward the Kotel</key>
+	<string>Vibrates as you point toward the Kotel</string>
+	<key>Western Wall</key>
+	<string>Western Wall</string>
+	<key>Yiddish</key>
+	<string>Yiddish</string>
+</dict>
+</plist>

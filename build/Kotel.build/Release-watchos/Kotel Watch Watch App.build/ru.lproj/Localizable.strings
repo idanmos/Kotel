@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>About</key>
+	<string>О приложении</string>
+	<key>Acquiring location…</key>
+	<string>Определение местоположения…</string>
+	<key>Acquiring…</key>
+	<string>Поиск…</string>
+	<key>Active</key>
+	<string>Активно</string>
+	<key>Allow Location</key>
+	<string>Разрешить геолокацию</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Разрешите доступ к местоположению, чтобы
+мы могли указать на Котель в Иерусалиме</string>
+	<key>App</key>
+	<string>Приложение</string>
+	<key>App Language</key>
+	<string>Язык приложения</string>
+	<key>Automatic</key>
+	<string>Авто</string>
+	<key>Best</key>
+	<string>Лучшая</string>
+	<key>Calibrating…</key>
+	<string>Калибровка…</string>
+	<key>Calibration</key>
+	<string>Калибровка</string>
+	<key>Change in Settings</key>
+	<string>Изменить в Настройках</string>
+	<key>Compass</key>
+	<string>Компас</string>
+	<key>Coordinates</key>
+	<string>Координаты</string>
+	<key>Display</key>
+	<string>Отображение</string>
+	<key>Distance Unit</key>
+	<string>Единица расстояния</string>
+	<key>Distance to Kotel</key>
+	<string>Расстояние до Котеля</string>
+	<key>Enable Location</key>
+	<string>Включить геолокацию</string>
+	<key>Enable in Settings</key>
+	<string>Включите в настройках</string>
+	<key>English</key>
+	<string>Английский</string>
+	<key>Find the Western Wall</key>
+	<string>Найдите Западную стену</string>
+	<key>French</key>
+	<string>Французский</string>
+	<key>German</key>
+	<string>Немецкий</string>
+	<key>Haptic Feedback</key>
+	<string>Тактильный отклик</string>
+	<key>Heading: %lld°</key>
+	<string>Курс: %lld°</string>
+	<key>Hebrew</key>
+	<string>Иврит</string>
+	<key>Imperial (mi)</key>
+	<string>Имперская (ми)</string>
+	<key>Jerusalem, Israel</key>
+	<string>Иерусалим, Израиль</string>
+	<key>Kotel</key>
+	<string>Котель</string>
+	<key>Language</key>
+	<string>Язык</string>
+	<key>Location</key>
+	<string>Местоположение</string>
+	<key>Location Access Needed</key>
+	<string>Требуется доступ к геолокации</string>
+	<key>Location Accuracy</key>
+	<string>Точность местоположения</string>
+	<key>Location Denied</key>
+	<string>Доступ к геолокации запрещён</string>
+	<key>Location Needed</key>
+	<string>Требуется геолокация</string>
+	<key>Location unavailable</key>
+	<string>Местоположение недоступно</string>
+	<key>Metric (km)</key>
+	<string>Метрическая (км)</string>
+	<key>No location</key>
+	<string>Нет местоположения</string>
+	<key>Open Settings</key>
+	<string>Открыть настройки</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Откройте настройки и включите доступ
+к местоположению для использования компаса Котеля</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Открывает компас, указывающий на Западную стену в Иерусалиме</string>
+	<key>Portuguese</key>
+	<string>Португальский</string>
+	<key>Restart the app to apply language changes</key>
+	<string>Перезапустите приложение для применения языковых изменений</string>
+	<key>Russian</key>
+	<string>Русский</string>
+	<key>Searching…</key>
+	<string>Поиск…</string>
+	<key>Settings</key>
+	<string>Настройки</string>
+	<key>Show Coordinates</key>
+	<string>Показать координаты</string>
+	<key>Show Direction</key>
+	<string>Показать направление</string>
+	<key>Show Direction to Kotel</key>
+	<string>Показать направление на Котель</string>
+	<key>Show Distance</key>
+	<string>Показать расстояние</string>
+	<key>Spanish</key>
+	<string>Испанский</string>
+	<key>Target Location</key>
+	<string>Целевое местоположение</string>
+	<key>The Western Wall</key>
+	<string>Стена Плача</string>
+	<key>To point toward the Kotel</key>
+	<string>Чтобы указать на Котель</string>
+	<key>Use True North</key>
+	<string>Использовать истинный север</string>
+	<key>Uses geographic north instead of magnetic north</key>
+	<string>Использует географический север вместо магнитного</string>
+	<key>Version</key>
+	<string>Версия</string>
+	<key>Vibrates as you point toward the Kotel</key>
+	<string>Вибрирует, когда вы указываете на Котель</string>
+	<key>Western Wall</key>
+	<string>Западная стена</string>
+	<key>Yiddish</key>
+	<string>Идиш</string>
+</dict>
+</plist>

@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Kotel Watch Watch App' in project 'Kotel' (no dependencies)

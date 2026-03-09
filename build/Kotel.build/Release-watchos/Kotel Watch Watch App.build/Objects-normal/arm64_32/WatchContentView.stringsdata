@@ -1,0 +1,56 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel Watch Watch App/WatchContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "Message shown while getting GPS location on watch",
+        "key": "Acquiring…",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "Watch permission view title",
+        "key": "Location Needed",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "Watch permission view description",
+        "key": "To point toward the Kotel",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "Watch button to allow location",
+        "key": "Allow Location",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "Watch denied permission title",
+        "key": "Location Denied",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "Watch denied permission description",
+        "key": "Enable in Settings",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 141
+        }
+      }
+    ]
+  },
+  "version": 1
+}

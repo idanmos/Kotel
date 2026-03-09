@@ -1,0 +1,76 @@
+{
+  "" : {
+    "const-values" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary.swiftconstvalues",
+    "dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary.d",
+    "diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary.dia",
+    "emit-module-dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary-emit-module.dia",
+    "pch" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Kotel-primary.swiftdeps"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/AppIntents/ShowDirectionIntent.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/ShowDirectionIntent.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/ShowDirectionIntent.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/ShowDirectionIntent.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Config.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Config.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Config.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/Config.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/ContentView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/KotelActivityAttributes.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/KotelActivityAttributes.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/KotelActivityAttributes.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/KotelActivityAttributes.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/KotelApp.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/KotelApp.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/KotelApp.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/KotelApp.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Services/LiveActivityService.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/LiveActivityService.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/LiveActivityService.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/LiveActivityService.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Services/LocationService.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/LocationService.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/LocationService.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/LocationService.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/ViewModels/CompassViewModel.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/CompassViewModel.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/CompassViewModel.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/CompassViewModel.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Views/CompassView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/CompassView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/CompassView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/CompassView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Views/PermissionView.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/PermissionView.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/PermissionView.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/PermissionView.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/DerivedSources/GeneratedStringSymbols_InfoPlist.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedStringSymbols_InfoPlist.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedStringSymbols_InfoPlist.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedStringSymbols_InfoPlist.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/DerivedSources/GeneratedStringSymbols_Localizable.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphonesimulator/Kotel.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o"
+  }
+}

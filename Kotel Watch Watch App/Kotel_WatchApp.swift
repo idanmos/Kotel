@@ -15,3 +15,7 @@ struct Kotel_Watch_Watch_AppApp: App {
         }
     }
 }
+
+#Preview("Watch App") {
+    WatchContentView()
+}

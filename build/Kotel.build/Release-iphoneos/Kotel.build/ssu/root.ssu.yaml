@@ -1,0 +1,150 @@
+apiVersion: ssu/v1
+nlu:
+  shortcuts:
+    bundleIdentifier: com.idanmoshe.Kotel
+    intents:
+    - metadata:
+        name: ShowDirectionIntent_0
+        title: Show Direction to Kotel
+      corpuses:
+        training:
+        - locale: de
+          utterances:
+          - '{${+prefix} }Show me ${+applicationName}'
+          - '{${+prefix} }Open ${+applicationName}'
+          - '{${+prefix} }Point me to Kotel in ${+applicationName}'
+        - locale: ru
+          utterances:
+          - '{${+prefix} }Show me ${+applicationName}'
+          - '{${+prefix} }Open ${+applicationName}'
+          - '{${+prefix} }Point me to Kotel in ${+applicationName}'
+        - locale: he
+          utterances:
+          - Show me ${+applicationName}
+          - Open ${+applicationName}
+          - Point me to Kotel in ${+applicationName}
+        - locale: yi
+          utterances:
+          - Show me ${+applicationName}
+          - Open ${+applicationName}
+          - Point me to Kotel in ${+applicationName}
+        - locale: fr
+          utterances:
+          - '{${+prefix} }Show me ${+applicationName}'
+          - '{${+prefix} }Open ${+applicationName}'
+          - '{${+prefix} }Point me to Kotel in ${+applicationName}'
+        - locale: es
+          utterances:
+          - '{${+prefix} }Show me ${+applicationName}'
+          - '{${+prefix} }Open ${+applicationName}'
+          - '{${+prefix} }Point me to Kotel in ${+applicationName}'
+        - locale: pt-BR
+          utterances:
+          - '{${+prefix} }Show me ${+applicationName}'
+          - '{${+prefix} }Open ${+applicationName}'
+          - '{${+prefix} }Point me to Kotel in ${+applicationName}'
+        - locale: en
+          utterances:
+          - '{${+prefix} }Show me ${+applicationName}'
+          - '{${+prefix} }Open ${+applicationName}'
+          - '{${+prefix} }Point me to Kotel in ${+applicationName}'
+    - metadata:
+        name: +negative
+      corpuses:
+        training:
+        - locale: de
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+        - locale: ru
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+        - locale: he
+          utterances:
+          - ${+standardAppShortcutNegatives}
+        - locale: yi
+          utterances: []
+        - locale: fr
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+        - locale: es
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+        - locale: pt-BR
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+        - locale: en
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+variables:
+- name: +applicationName
+  type: ssu/expansion
+  definitions:
+  - locale: de
+    synomyms:
+    - Kotel
+  - locale: ru
+    synomyms:
+    - Котель
+  - locale: he
+    synomyms:
+    - הכותל
+  - locale: yi
+    synomyms:
+    - כּותל
+  - locale: fr
+    synomyms:
+    - Kotel
+  - locale: es
+    synomyms:
+    - Kotel
+  - locale: pt-BR
+    synomyms:
+    - Kotel
+  - locale: en
+    synomyms:
+    - Kotel
+- name: +prefix
+  type: ssu/expansion
+  definitions:
+  - locale: de
+    synomyms:
+      $ref: ssu://Resources/prefix/de.yaml
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/prefix/en.yaml
+  - locale: es
+    synomyms:
+      $ref: ssu://Resources/prefix/es.yaml
+  - locale: fr
+    synomyms:
+      $ref: ssu://Resources/prefix/fr.yaml
+  - locale: pt-BR
+    synomyms:
+      $ref: ssu://Resources/prefix/pt.yaml
+  - locale: ru
+    synomyms:
+      $ref: ssu://Resources/prefix/ru.yaml
+- name: +standardAppShortcutNegatives
+  type: ssu/expansion
+  definitions:
+  - locale: de
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/de.yaml
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/en.yaml
+  - locale: es
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/es.yaml
+  - locale: fr
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/fr.yaml
+  - locale: he
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/he.yaml
+  - locale: pt-BR
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/pt.yaml
+  - locale: ru
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/ru.yaml

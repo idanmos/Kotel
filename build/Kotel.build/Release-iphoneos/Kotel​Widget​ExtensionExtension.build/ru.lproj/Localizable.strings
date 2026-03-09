@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acquiring location…</key>
+	<string>Определение местоположения…</string>
+	<key>Acquiring…</key>
+	<string>Поиск…</string>
+	<key>Active</key>
+	<string>Активно</string>
+	<key>Allow Location</key>
+	<string>Разрешить геолокацию</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Разрешите доступ к местоположению, чтобы
+мы могли указать на Котель в Иерусалиме</string>
+	<key>Bearing</key>
+	<string>Азимут</string>
+	<key>Calibrating…</key>
+	<string>Калибровка…</string>
+	<key>Distance</key>
+	<string>Расстояние</string>
+	<key>Distance to Kotel</key>
+	<string>Расстояние до Котеля</string>
+	<key>Enable Location</key>
+	<string>Включить геолокацию</string>
+	<key>Enable in Settings</key>
+	<string>Включите в настройках</string>
+	<key>Find the Western Wall</key>
+	<string>Найдите Западную стену</string>
+	<key>Heading: %lld°</key>
+	<string>Курс: %lld°</string>
+	<key>Kotel</key>
+	<string>Котель</string>
+	<key>Kotel %@</key>
+	<string>Котель %@</string>
+	<key>Kotel Compass</key>
+	<string>Компас Котеля</string>
+	<key>Location Access Needed</key>
+	<string>Требуется доступ к геолокации</string>
+	<key>Location Denied</key>
+	<string>Доступ к геолокации запрещён</string>
+	<key>Location Needed</key>
+	<string>Требуется геолокация</string>
+	<key>Location unavailable</key>
+	<string>Местоположение недоступно</string>
+	<key>No location</key>
+	<string>Нет местоположения</string>
+	<key>Open Settings</key>
+	<string>Открыть настройки</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Откройте настройки и включите доступ
+к местоположению для использования компаса Котеля</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Открывает компас, указывающий на Западную стену в Иерусалиме</string>
+	<key>Searching…</key>
+	<string>Поиск…</string>
+	<key>Show Direction</key>
+	<string>Показать направление</string>
+	<key>Show Direction to Kotel</key>
+	<string>Показать направление на Котель</string>
+	<key>Shows direction and distance to the Western Wall.</key>
+	<string>Показывает направление и расстояние до Западной стены.</string>
+	<key>To point toward the Kotel</key>
+	<string>Чтобы указать на Котель</string>
+	<key>Western Wall</key>
+	<string>Западная стена</string>
+</dict>
+</plist>

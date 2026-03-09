@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acquiring location…</key>
+	<string>Obteniendo ubicación…</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Permite el acceso a la ubicación para
+señalarte hacia el Kotel en Jerusalén</string>
+	<key>Calibrating…</key>
+	<string>Calibrando…</string>
+	<key>Distance to Kotel</key>
+	<string>Distancia al Kotel</string>
+	<key>Enable Location</key>
+	<string>Activar ubicación</string>
+	<key>Find the Western Wall</key>
+	<string>Encuentra el Muro Occidental</string>
+	<key>Location Access Needed</key>
+	<string>Se necesita acceso a ubicación</string>
+	<key>Open Settings</key>
+	<string>Abrir ajustes</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Abre los ajustes y activa el acceso
+a la ubicación para usar la brújula del Kotel</string>
+	<key>Western Wall</key>
+	<string>Muro Occidental</string>
+</dict>
+</plist>

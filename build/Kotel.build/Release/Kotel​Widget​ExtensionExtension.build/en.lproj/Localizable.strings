@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acquiring location…</key>
+	<string>Acquiring location…</string>
+	<key>Acquiring…</key>
+	<string>Acquiring…</string>
+	<key>Active</key>
+	<string>Active</string>
+	<key>Allow Location</key>
+	<string>Allow Location</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Allow location access so we can
+point you toward the Kotel in Jerusalem</string>
+	<key>Bearing</key>
+	<string>Bearing</string>
+	<key>Calibrating…</key>
+	<string>Calibrating…</string>
+	<key>Distance</key>
+	<string>Distance</string>
+	<key>Distance to Kotel</key>
+	<string>Distance to Kotel</string>
+	<key>Enable Location</key>
+	<string>Enable Location</string>
+	<key>Enable in Settings</key>
+	<string>Enable in Settings</string>
+	<key>Find the Western Wall</key>
+	<string>Find the Western Wall</string>
+	<key>Heading: %lld°</key>
+	<string>Heading: %lld°</string>
+	<key>Kotel</key>
+	<string>Kotel</string>
+	<key>Kotel %@</key>
+	<string>Kotel %@</string>
+	<key>Kotel Compass</key>
+	<string>Kotel Compass</string>
+	<key>Location Access Needed</key>
+	<string>Location Access Needed</string>
+	<key>Location Denied</key>
+	<string>Location Denied</string>
+	<key>Location Needed</key>
+	<string>Location Needed</string>
+	<key>Location unavailable</key>
+	<string>Location unavailable</string>
+	<key>No location</key>
+	<string>No location</string>
+	<key>Open Settings</key>
+	<string>Open Settings</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Open Settings and enable location
+access to use the Western Wall compass</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Opens the compass pointing to the Western Wall in Jerusalem</string>
+	<key>Searching…</key>
+	<string>Searching…</string>
+	<key>Show Direction</key>
+	<string>Show Direction</string>
+	<key>Show Direction to Kotel</key>
+	<string>Show Direction to Kotel</string>
+	<key>Shows direction and distance to the Western Wall.</key>
+	<string>Shows direction and distance to the Western Wall.</string>
+	<key>To point toward the Kotel</key>
+	<string>To point toward the Kotel</string>
+	<key>Western Wall</key>
+	<string>Western Wall</string>
+</dict>
+</plist>

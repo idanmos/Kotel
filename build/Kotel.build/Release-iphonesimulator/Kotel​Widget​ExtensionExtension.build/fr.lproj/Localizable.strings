@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acquiring location…</key>
+	<string>Acquisition de la position…</string>
+	<key>Acquiring…</key>
+	<string>Acquisition…</string>
+	<key>Active</key>
+	<string>Actif</string>
+	<key>Allow Location</key>
+	<string>Autoriser la localisation</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Autorisez l'accès à la localisation pour
+vous orienter vers le Kotel à Jérusalem</string>
+	<key>Bearing</key>
+	<string>Cap</string>
+	<key>Calibrating…</key>
+	<string>Calibrage…</string>
+	<key>Distance</key>
+	<string>Distance</string>
+	<key>Distance to Kotel</key>
+	<string>Distance au Kotel</string>
+	<key>Enable Location</key>
+	<string>Activer la localisation</string>
+	<key>Enable in Settings</key>
+	<string>Activer dans Réglages</string>
+	<key>Find the Western Wall</key>
+	<string>Trouvez le Mur occidental</string>
+	<key>Heading: %lld°</key>
+	<string>Cap : %lld°</string>
+	<key>Kotel</key>
+	<string>Kotel</string>
+	<key>Kotel %@</key>
+	<string>Kotel %@</string>
+	<key>Kotel Compass</key>
+	<string>Boussole du Kotel</string>
+	<key>Location Access Needed</key>
+	<string>Accès à la localisation requis</string>
+	<key>Location Denied</key>
+	<string>Localisation refusée</string>
+	<key>Location Needed</key>
+	<string>Localisation requise</string>
+	<key>Location unavailable</key>
+	<string>Localisation indisponible</string>
+	<key>No location</key>
+	<string>Pas de position</string>
+	<key>Open Settings</key>
+	<string>Ouvrir les réglages</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Ouvrez les réglages et activez l'accès
+à la localisation pour utiliser la boussole du Kotel</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Ouvre la boussole pointant vers le Mur occidental à Jérusalem</string>
+	<key>Searching…</key>
+	<string>Recherche…</string>
+	<key>Show Direction</key>
+	<string>Afficher la direction</string>
+	<key>Show Direction to Kotel</key>
+	<string>Afficher la direction du Kotel</string>
+	<key>Shows direction and distance to the Western Wall.</key>
+	<string>Affiche la direction et la distance au Mur occidental.</string>
+	<key>To point toward the Kotel</key>
+	<string>Pour pointer vers le Kotel</string>
+	<key>Western Wall</key>
+	<string>Mur occidental</string>
+</dict>
+</plist>

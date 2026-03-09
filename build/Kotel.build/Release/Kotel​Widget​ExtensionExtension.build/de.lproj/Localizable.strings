@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acquiring location…</key>
+	<string>Standort wird ermittelt…</string>
+	<key>Acquiring…</key>
+	<string>Ermitteln…</string>
+	<key>Active</key>
+	<string>Aktiv</string>
+	<key>Allow Location</key>
+	<string>Standort erlauben</string>
+	<key>Allow location access so we can
+point you toward the Kotel in Jerusalem</key>
+	<string>Erlaube Standortzugriff, damit wir dich
+zur Klagemauer in Jerusalem führen können</string>
+	<key>Bearing</key>
+	<string>Peilung</string>
+	<key>Calibrating…</key>
+	<string>Kalibrierung…</string>
+	<key>Distance</key>
+	<string>Entfernung</string>
+	<key>Distance to Kotel</key>
+	<string>Entfernung zur Kotel</string>
+	<key>Enable Location</key>
+	<string>Standort aktivieren</string>
+	<key>Enable in Settings</key>
+	<string>In Einstellungen aktivieren</string>
+	<key>Find the Western Wall</key>
+	<string>Finde die Klagemauer</string>
+	<key>Heading: %lld°</key>
+	<string>Kurs: %lld°</string>
+	<key>Kotel</key>
+	<string>Kotel</string>
+	<key>Kotel %@</key>
+	<string>Kotel %@</string>
+	<key>Kotel Compass</key>
+	<string>Kotel-Kompass</string>
+	<key>Location Access Needed</key>
+	<string>Standortzugriff erforderlich</string>
+	<key>Location Denied</key>
+	<string>Standort abgelehnt</string>
+	<key>Location Needed</key>
+	<string>Standort erforderlich</string>
+	<key>Location unavailable</key>
+	<string>Standort nicht verfügbar</string>
+	<key>No location</key>
+	<string>Kein Standort</string>
+	<key>Open Settings</key>
+	<string>Einstellungen öffnen</string>
+	<key>Open Settings and enable location
+access to use the Western Wall compass</key>
+	<string>Öffne die Einstellungen und aktiviere den
+Standortzugriff, um den Klagemauer-Kompass zu nutzen</string>
+	<key>Opens the compass pointing to the Western Wall in Jerusalem</key>
+	<string>Öffnet den Kompass, der zur Klagemauer in Jerusalem zeigt</string>
+	<key>Searching…</key>
+	<string>Suche…</string>
+	<key>Show Direction</key>
+	<string>Richtung zeigen</string>
+	<key>Show Direction to Kotel</key>
+	<string>Richtung zur Kotel zeigen</string>
+	<key>Shows direction and distance to the Western Wall.</key>
+	<string>Zeigt Richtung und Entfernung zur Klagemauer.</string>
+	<key>To point toward the Kotel</key>
+	<string>Um zur Kotel zu zeigen</string>
+	<key>Western Wall</key>
+	<string>Klagemauer</string>
+</dict>
+</plist>

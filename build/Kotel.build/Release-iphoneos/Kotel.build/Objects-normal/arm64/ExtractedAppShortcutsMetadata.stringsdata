@@ -1,0 +1,33 @@
+{
+  "source" : "\/Users\/idanmoshe\/Personal\/Projects\/Kotel\/Kotel\/AppIntents\/ShowDirectionIntent.swift",
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "key" : "Show me ${applicationName}",
+        "appShortcutMetadata" : [
+          {
+            "actionIdentifier" : "ShowDirectionIntent",
+            "index" : 0,
+            "parameterDisplayRepresentations" : {
+
+            },
+            "parameterTypes" : {
+
+            },
+            "title" : "Show Direction to Kotel"
+          }
+        ],
+        "values" : [
+          "Show me ${applicationName}",
+          "Open ${applicationName}",
+          "Point me to Kotel in ${applicationName}"
+        ],
+        "location" : {
+          "startingLine" : 24,
+          "startingColumn" : 0
+        }
+      }
+    ]
+  },
+  "version" : 2
+}

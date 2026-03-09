@@ -1,0 +1,56 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "Tab label for compass view",
+        "key": "Compass",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "Tab label for settings view",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "Title for the Western Wall",
+        "key": "Western Wall",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "Message shown while calibrating compass",
+        "key": "Calibrating…",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "Message shown while getting GPS location",
+        "key": "Acquiring location…",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "Label showing distance to the Western Wall",
+        "key": "Distance to Kotel",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 163
+        }
+      }
+    ]
+  },
+  "version": 1
+}

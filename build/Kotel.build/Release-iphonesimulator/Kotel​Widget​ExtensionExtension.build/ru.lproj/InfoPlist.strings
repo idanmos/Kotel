@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Котель</string>
+	<key>CFBundleName</key>
+	<string>Котель</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Разрешите доступ к местоположению, чтобы компас мог продолжать указывать на Котель в фоновом режиме</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Разрешите доступ к местоположению, чтобы мы могли указать на Котель в Иерусалиме</string>
+</dict>
+</plist>

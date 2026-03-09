@@ -1,0 +1,66 @@
+{
+  "" : {
+    "const-values" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.swiftconstvalues",
+    "dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.d",
+    "diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary-emit-module.dia",
+    "pch" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.swiftdeps"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/KotelActivityAttributes.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelActivityAttributes.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelActivityAttributes.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelActivityAttributes.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/KotelLiveActivity.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelLiveActivity.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelLiveActivity.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelLiveActivity.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/KotelWidgetBundle.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetBundle.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetBundle.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetBundle.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/KotelWidgetEntry.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetEntry.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetEntry.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetEntry.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/KotelWidgetViews.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetViews.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetViews.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/KotelWidgetViews.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/LockScreenWidgetViews.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/LockScreenWidgetViews.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/LockScreenWidgetViews.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/LockScreenWidgetViews.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/SharedLocationManager.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/SharedLocationManager.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/SharedLocationManager.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/SharedLocationManager.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/WidgetLocationFetcher.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/WidgetLocationFetcher.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/WidgetLocationFetcher.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/WidgetLocationFetcher.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/DerivedSources/GeneratedStringSymbols_InfoPlist.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedStringSymbols_InfoPlist.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedStringSymbols_InfoPlist.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedStringSymbols_InfoPlist.o"
+  },
+  "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/DerivedSources/GeneratedStringSymbols_Localizable.swift" : {
+    "index-unit-output-path" : "/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o",
+    "llvm-bc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.bc",
+    "object" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o"
+  }
+}

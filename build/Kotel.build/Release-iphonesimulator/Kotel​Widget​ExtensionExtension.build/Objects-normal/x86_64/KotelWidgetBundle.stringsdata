@@ -1,0 +1,24 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/KotelWidgetBundle.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Kotel Compass",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shows direction and distance to the Western Wall.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 29
+        }
+      }
+    ]
+  },
+  "version": 1
+}

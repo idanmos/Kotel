@@ -1,0 +1,12 @@
+{
+  "/Users/idanmoshe/Personal/Projects/Kotel/AppSettings.swift" : {
+    "abi-baseline-json" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel.abi.json",
+    "const-values" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel-primary.swiftconstvalues",
+    "dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel-primary.d",
+    "diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel-primary.dia",
+    "objc-header" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel-Swift.h",
+    "swiftdoc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel.swiftdoc",
+    "swiftmodule" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel.swiftmodule",
+    "swiftsourceinfo" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release-iphoneos/Kotel.build/Objects-normal/arm64/Kotel.swiftsourceinfo"
+  }
+}

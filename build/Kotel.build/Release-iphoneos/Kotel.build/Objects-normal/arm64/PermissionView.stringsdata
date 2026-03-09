@@ -1,0 +1,56 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/Views/PermissionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "Permission screen title",
+        "key": "Find the Western Wall",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "Permission screen description",
+        "key": "Allow location access so we can\npoint you toward the Kotel in Jerusalem",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "Button to enable location services",
+        "key": "Enable Location",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "Denied permission screen title",
+        "key": "Location Access Needed",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "Denied permission screen description",
+        "key": "Open Settings and enable location\naccess to use the Western Wall compass",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "Button to open iOS Settings app",
+        "key": "Open Settings",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 90
+        }
+      }
+    ]
+  },
+  "version": 1
+}

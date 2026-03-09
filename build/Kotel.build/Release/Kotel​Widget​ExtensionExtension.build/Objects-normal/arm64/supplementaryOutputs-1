@@ -1,0 +1,12 @@
+{
+  "/Users/idanmoshe/Personal/Projects/Kotel/Kotel/KotelActivityAttributes.swift" : {
+    "abi-baseline-json" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel_Widget_ExtensionExtension.abi.json",
+    "const-values" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.swiftconstvalues",
+    "dependencies" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.d",
+    "diagnostics" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel​Widget​ExtensionExtension-primary.dia",
+    "objc-header" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel_Widget_ExtensionExtension-Swift.h",
+    "swiftdoc" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel_Widget_ExtensionExtension.swiftdoc",
+    "swiftmodule" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel_Widget_ExtensionExtension.swiftmodule",
+    "swiftsourceinfo" : "/Users/idanmoshe/Personal/Projects/Kotel/build/Kotel.build/Release/Kotel​Widget​ExtensionExtension.build/Objects-normal/arm64/Kotel_Widget_ExtensionExtension.swiftsourceinfo"
+  }
+}

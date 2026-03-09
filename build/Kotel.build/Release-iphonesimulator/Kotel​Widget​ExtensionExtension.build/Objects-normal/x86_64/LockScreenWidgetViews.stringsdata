@@ -1,0 +1,48 @@
+{
+  "source": "/Users/idanmoshe/Personal/Projects/Kotel/Kotel​Widget​Extension/LockScreenWidgetViews.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Location unavailable",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kotel",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld°",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kotel %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kotel",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 111
+        }
+      }
+    ]
+  },
+  "version": 1
+}
