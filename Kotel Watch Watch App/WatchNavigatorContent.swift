@@ -22,7 +22,17 @@ struct WatchNavigatorContent: View {
     private var compassTab: some View {
         GeometryReader { geometry in
             let titleHeight: CGFloat = 18
-            let bottomHeight: CGFloat = viewModel.hasLocation ? 0 : 20
+            let bottomHeight: CGFloat = {
+                if !viewModel.hasLocation {
+                    return 20
+                }
+
+                if viewModel.settings.showDistance, viewModel.distanceToWall != nil {
+                    return 34
+                }
+
+                return 0
+            }()
             let spacing: CGFloat = 6
             let compassSide = max(
                 0,
@@ -46,7 +56,20 @@ struct WatchNavigatorContent: View {
                 .frame(width: compassSide, height: compassSide)
                 .animation(.smooth(duration: 0.3), value: viewModel.rotationAngle)
 
-                if !viewModel.hasLocation {
+                if let distance = viewModel.distanceToWall, viewModel.settings.showDistance {
+                    VStack(spacing: 2) {
+                        Text("Distance", bundle: .main, comment: "Label showing distance to the Western Wall on watch")
+                            .font(.caption2)
+                            .foregroundStyle(.white.opacity(0.45))
+
+                        Text(viewModel.formattedDistance(distance))
+                            .font(.footnote.weight(.semibold))
+                            .foregroundStyle(.white)
+                            .contentTransition(.numericText())
+                    }
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+                } else if !viewModel.hasLocation {
                     HStack(spacing: 4) {
                         ProgressView()
                             .tint(.white.opacity(0.5))

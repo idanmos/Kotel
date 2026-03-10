@@ -1290,7 +1290,7 @@
       }
     },
     "Compass" : {
-      "comment" : "Settings section for compass options on watch\nSettings section header for compass settings",
+      "comment" : "Settings section for compass options on watch\nSettings section header for compass settings\nTab label for compass view",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1503,7 +1503,7 @@
       }
     },
     "Distance" : {
-      "comment" : "Distance label on watch",
+      "comment" : "Label showing distance to the Western Wall on watch",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4509,7 +4509,7 @@
       }
     },
     "Settings" : {
-      "comment" : "Settings screen title\nToolbar button to open settings\nWatch settings title",
+      "comment" : "Settings screen title\nTab label for settings view\nWatch settings title",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
